@@ -1,0 +1,6 @@
+CLSID.reg            (must be generated for parts of the driver and utility to work)
+forcefeedback.reg    (tells the system which file handles force feedback)
+joystick oem.reg     (contains all the data for each individual control, this MUST be installed with the controller, otherwise rumble and the Setup utility will not work)
+program group.reg    (this just organises the start menu group}
+setup utility.reg    (adds the setup utility to the control panel)
+xbcd+reinst full.reg (tells the driver installer app where to find the inf and driver)

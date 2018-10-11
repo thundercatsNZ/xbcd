@@ -1,0 +1,37 @@
+Version 0.2.6
+ - Fixed 360 LEDs not restoring out of standby.
+
+Version 0.2.5
+ - Fixed a serious memory error that makes games display graphic errors and crash.
+
+Version 0.2.4
+ - Deadzone is back to it's former self just like it used to be.
+ - Deadzone can now be turned off by setting it to 0 _and_ turning Full scale axis off.
+ - Added a routine to crop wacky analog stick values so you can have a perfect circle.
+ - Changed the format of a _bunch_ of comments, kinda pointless but it trimmed the source by 2 Kb ^_^
+
+Version 0.2.3
+ - Deadzone is back this time using the drop-out method: everything inside the deadzone is discarted,
+everyting outside is usead as is.
+ - Full scale axis is also back.
+
+Version 0.2.2
+ - Includes changes from Tacvek/guest2 and Tiddles. Their updates include a registry value for setting
+the gamepad LEDs, and changing the LEDs when the guide button is pressed.
+- Swaped the rumble motors back, this is their correct position.
+- Disabled the deadzone function for more accuracy in the analog stick.
+
+Version 0.2.1
+ - Has the left and right rumble motors, the X and Y buttons, and the right stick's axes swapped.
+ - Also the guide button now switches layouts. Thanks to Tiddles for some of this work.
+ - A USB ID for the Pelican XSZ Wired Controller was also added.
+
+Version 0.2.0
+ - Contains support for rumble and sets the LEDs on the pad so that they do not blink (or stay off).
+
+Version 0.1.1
+ - This version contains an alternate method to detect if a connected pad is an Xbox 360 pad.
+This means it will support more Xbox 360 compatiable gamepads.
+
+Version 0.1.0
+ - Initial version of modified driver.

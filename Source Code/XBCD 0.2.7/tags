@@ -1,0 +1,241 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.5.4	//
+AThreshold	XBCD_driver.h	/^	LONG AThreshold;$/;"	m	struct:_DEVICE_EXTENSION
+AcquireRemoveLock	XBCD_driver.h	78;"	d
+AcquireRemoveLock	XBCD_driver.h	84;"	d
+AllocateTag	XBCD_driver.h	/^		LONG        AllocateTag;$/;"	m	struct:_IO_REMOVE_LOCK_DBG_BLOCK
+AxesOn	XBCD_driver.h	/^	UCHAR AxesOn;$/;"	m	struct:_DEVICE_EXTENSION
+AxesScale	XBCD_driver.h	/^	LONG AxesScale[NR_OUT_AXES];$/;"	m	struct:_DEVICE_EXTENSION
+BThreshold	XBCD_driver.h	/^	LONG BThreshold;$/;"	m	struct:_DEVICE_EXTENSION
+Blocks	XBCD_driver.h	/^		PIO_REMOVE_LOCK_TRACKING_BLOCK Blocks;$/;"	m	struct:_IO_REMOVE_LOCK_DBG_BLOCK
+Common	XBCD_driver.h	/^		IO_REMOVE_LOCK_COMMON_BLOCK Common;$/;"	m	struct:_IO_REMOVE_LOCK
+CreateInterruptUrb	XBCD_usb.c	/^NTSTATUS CreateInterruptUrb(PDEVICE_OBJECT pFdo)$/;"	f
+DBG	XBCD_driver.h	30;"	d
+DEVICE_EXTENSION	XBCD_driver.h	/^} DEVICE_EXTENSION, *PDEVICE_EXTENSION;$/;"	t
+Dbg	XBCD_driver.h	/^		IO_REMOVE_LOCK_DBG_BLOCK Dbg;$/;"	m	struct:_IO_REMOVE_LOCK
+DeleteInterruptUrb	XBCD_usb.c	/^VOID DeleteInterruptUrb(PDEVICE_OBJECT pFdo)$/;"	f
+DescriptorList	XBCD_hid.h	/^    } DescriptorList [1];$/;"	m	struct:_HID_DESCRIPTOR
+DevUsage	XBCD_driver.h	/^	UCHAR DevUsage; \/\/Used to select Gamepad or Joystick usage$/;"	m	struct:_DEVICE_EXTENSION
+DeviceExtensionSize	XBCD_hid.h	/^	ULONG           DeviceExtensionSize;$/;"	m	struct:_HID_MINIDRIVER_REGISTRATION
+DeviceRead	XBCD_usb.c	/^NTSTATUS DeviceRead(PDEVICE_EXTENSION pDevExt)$/;"	f
+DeviceRemoved	XBCD_driver.h	/^	BOOLEAN DeviceRemoved;$/;"	m	struct:_DEVICE_EXTENSION
+DeviceStarted	XBCD_driver.h	/^	BOOLEAN DeviceStarted;$/;"	m	struct:_DEVICE_EXTENSION
+DeviceWrite	XBCD_usb.c	/^NTSTATUS DeviceWrite(PDEVICE_EXTENSION pDevExt, ULONG size\/*, PIRP pIrp*\/)$/;"	f
+DevicesArePolled	XBCD_hid.h	/^	BOOLEAN         DevicesArePolled;$/;"	m	struct:_HID_MINIDRIVER_REGISTRATION
+DriverEntry	XBCD_driver.c	/^NTSTATUS DriverEntry(IN PDRIVER_OBJECT pDriverObject, IN PUNICODE_STRING pRegistryPath)$/;"	f
+DriverObject	XBCD_hid.h	/^	PDRIVER_OBJECT  DriverObject;$/;"	m	struct:_HID_MINIDRIVER_REGISTRATION
+FEATURE_CODE_GET_IS360	XBCD_driver.h	138;"	d
+FEATURE_CODE_GET_VERSION	XBCD_driver.h	137;"	d
+FEATURE_CODE_SET_CONFIG	XBCD_driver.h	136;"	d
+FEATURE_GET_IS360	XBCD_driver.h	/^} FEATURE_GET_IS360, *PFEATURE_GET_IS360;$/;"	t
+FEATURE_GET_VERSION	XBCD_driver.h	/^} FEATURE_GET_VERSION, *PFEATURE_GET_VERSION;$/;"	t
+FEATURE_SET_CONFIG	XBCD_driver.h	/^} FEATURE_SET_CONFIG, *PFEATURE_SET_CONFIG;$/;"	t
+GET_LOWER_DEVICE_OBJECT	XBCD_hid.h	38;"	d
+GET_MINIDRIVER_DEVICE_EXTENSION	XBCD_hid.h	35;"	d
+GET_PHYSICAL_DEVICE_OBJECT	XBCD_hid.h	41;"	d
+GUID_DEVINTERFACE_USB_DEVICE	XBCD_driver.h	/^	static const GUID GUID_DEVINTERFACE_USB_DEVICE = {0xA5DCBF10L, 0x6530, 0x11D2, 0x90, 0x1F, 0x00, 0xC0, 0x4F, 0xB9, 0x51, 0xED};$/;"	v
+GamepadSemiAxis	SemiAxis.h	/^typedef struct GamepadSemiAxis$/;"	s
+GamepadSemiAxis	SemiAxis.h	/^} GamepadSemiAxis;$/;"	t
+GetRepDesc	XBCD_report.c	/^USHORT GetRepDesc(PDEVICE_EXTENSION pDevExt, PUCHAR Buffer)$/;"	f
+HID_DESCRIPTOR	XBCD_hid.h	/^} HID_DESCRIPTOR, * PHID_DESCRIPTOR;$/;"	t
+HID_DEVICE_ATTRIBUTES	XBCD_hid.h	/^} HID_DEVICE_ATTRIBUTES, * PHID_DEVICE_ATTRIBUTES;$/;"	t
+HID_DEVICE_EXTENSION	XBCD_hid.h	/^} HID_DEVICE_EXTENSION, *PHID_DEVICE_EXTENSION;$/;"	t
+HID_HID_DESCRIPTOR_TYPE	XBCD_hid.h	102;"	d
+HID_MINIDRIVER_REGISTRATION	XBCD_hid.h	/^} HID_MINIDRIVER_REGISTRATION, *PHID_MINIDRIVER_REGISTRATION;$/;"	t
+HID_REPORT_DESCRIPTOR_TYPE	XBCD_hid.h	103;"	d
+HID_USAGE_GAMEPAD	XBCD_hid.h	24;"	d
+HID_USAGE_JOYSTICK	XBCD_hid.h	23;"	d
+HighWatermark	XBCD_driver.h	/^		LONG        HighWatermark;$/;"	m	struct:_IO_REMOVE_LOCK_DBG_BLOCK
+IOCTL_HID_GET_DEVICE_ATTRIBUTES	XBCD_hid.h	100;"	d
+IOCTL_HID_GET_DEVICE_DESCRIPTOR	XBCD_hid.h	93;"	d
+IOCTL_HID_GET_REPORT_DESCRIPTOR	XBCD_hid.h	94;"	d
+IOCTL_HID_READ_REPORT	XBCD_hid.h	95;"	d
+IOCTL_HID_WRITE_REPORT	XBCD_hid.h	96;"	d
+IO_REMOVE_LOCK	XBCD_driver.h	/^	} IO_REMOVE_LOCK, *PIO_REMOVE_LOCK;$/;"	t
+IO_REMOVE_LOCK_COMMON_BLOCK	XBCD_driver.h	/^	} IO_REMOVE_LOCK_COMMON_BLOCK;$/;"	t
+IO_REMOVE_LOCK_DBG_BLOCK	XBCD_driver.h	/^	} IO_REMOVE_LOCK_DBG_BLOCK;$/;"	t
+InitializeRemoveLock	XBCD_driver.h	77;"	d
+InitializeRemoveLock	XBCD_driver.h	83;"	d
+IntAcquireRemoveLock	RemoveLock.c	/^NTSTATUS IntAcquireRemoveLock(PIO_REMOVE_LOCK lock, PVOID tag)$/;"	f
+IntInitializeRemoveLock	RemoveLock.c	/^VOID IntInitializeRemoveLock(PIO_REMOVE_LOCK lock, ULONG tag, ULONG minutes, ULONG maxcount)$/;"	f
+IntReleaseRemoveLock	RemoveLock.c	/^VOID IntReleaseRemoveLock(PIO_REMOVE_LOCK lock, PVOID tag)$/;"	f
+IntReleaseRemoveLockAndWait	RemoveLock.c	/^VOID IntReleaseRemoveLockAndWait(PIO_REMOVE_LOCK lock, PVOID tag)$/;"	f
+IoCount	XBCD_driver.h	/^		LONG        IoCount;$/;"	m	struct:_IO_REMOVE_LOCK_COMMON_BLOCK
+LOCKEDCODE	XBCD_driver.h	27;"	d
+LStickDZ	XBCD_driver.h	/^	LONG LStickDZ;$/;"	m	struct:_DEVICE_EXTENSION
+LaFactor	XBCD_driver.h	/^	UCHAR LaFactor;$/;"	m	struct:_DEVICE_EXTENSION
+LayoutNr	XBCD_driver.h	/^	unsigned int LayoutNr;$/;"	m	struct:_DEVICE_EXTENSION
+LayoutSwitch	XBCD_driver.h	/^	BOOLEAN LayoutSwitch;$/;"	m	struct:_DEVICE_EXTENSION
+LedSetting	XBCD_driver.h	/^	UCHAR LedSetting;$/;"	m	struct:_DEVICE_EXTENSION
+LockList	XBCD_driver.h	/^		LIST_ENTRY  LockList;$/;"	m	struct:_IO_REMOVE_LOCK_DBG_BLOCK
+LowMemoryCount	XBCD_driver.h	/^		LONG        LowMemoryCount;$/;"	m	struct:_IO_REMOVE_LOCK_DBG_BLOCK
+MAP_MATRIX_SIZE	XBCD_driver.h	104;"	d
+MAX_INTERFACES	XBCD_driver.h	38;"	d
+MAX_NR_LAYOUTS	XBCD_driver.h	101;"	d
+MAX_VALUE	XBCD_driver.h	98;"	d
+Major	XBCD_driver.h	/^	UCHAR Major;$/;"	m	struct:_FEATURE_GET_VERSION
+MapMatrix	XBCD_driver.h	/^	unsigned int MapMatrix[8][MAP_MATRIX_SIZE];$/;"	m	struct:_DEVICE_EXTENSION
+MaxLockedTicks	XBCD_driver.h	/^		LONGLONG    MaxLockedTicks;$/;"	m	struct:_IO_REMOVE_LOCK_DBG_BLOCK
+MiniDeviceExtension	XBCD_hid.h	/^	PVOID           MiniDeviceExtension;$/;"	m	struct:_HID_DEVICE_EXTENSION
+Minor	XBCD_driver.h	/^	UCHAR Minor;$/;"	m	struct:_FEATURE_GET_VERSION
+NR_OUT_AXES	XBCD_driver.h	132;"	d
+NR_OUT_BUTTONS	XBCD_driver.h	112;"	d
+NR_OUT_POVS	XBCD_driver.h	115;"	d
+NR_SEMIAXES	XBCD_driver.h	127;"	d
+NR_WINCONTROLS	XBCD_driver.h	129;"	d
+NextDeviceObject	XBCD_hid.h	/^	PDEVICE_OBJECT  NextDeviceObject;$/;"	m	struct:_HID_DEVICE_EXTENSION
+NrOfLayouts	XBCD_driver.h	/^	unsigned int NrOfLayouts;$/;"	m	struct:_DEVICE_EXTENSION
+OUT_AXIS_SCALE	XBCD_driver.h	118;"	d
+OUT_BUFFER_LEN	XBCD_driver.h	109;"	d
+OUT_POV1_INDEX	XBCD_driver.h	121;"	d
+PAGEDCODE	XBCD_driver.h	26;"	d
+PDEVICE_EXTENSION	XBCD_driver.h	/^} DEVICE_EXTENSION, *PDEVICE_EXTENSION;$/;"	t
+PFEATURE_GET_IS360	XBCD_driver.h	/^} FEATURE_GET_IS360, *PFEATURE_GET_IS360;$/;"	t
+PFEATURE_GET_VERSION	XBCD_driver.h	/^} FEATURE_GET_VERSION, *PFEATURE_GET_VERSION;$/;"	t
+PFEATURE_SET_CONFIG	XBCD_driver.h	/^} FEATURE_SET_CONFIG, *PFEATURE_SET_CONFIG;$/;"	t
+PHID_DESCRIPTOR	XBCD_hid.h	/^} HID_DESCRIPTOR, * PHID_DESCRIPTOR;$/;"	t
+PHID_DEVICE_ATTRIBUTES	XBCD_hid.h	/^} HID_DEVICE_ATTRIBUTES, * PHID_DEVICE_ATTRIBUTES;$/;"	t
+PHID_DEVICE_EXTENSION	XBCD_hid.h	/^} HID_DEVICE_EXTENSION, *PHID_DEVICE_EXTENSION;$/;"	t
+PHID_MINIDRIVER_REGISTRATION	XBCD_hid.h	/^} HID_MINIDRIVER_REGISTRATION, *PHID_MINIDRIVER_REGISTRATION;$/;"	t
+PIO_REMOVE_LOCK	XBCD_driver.h	/^	} IO_REMOVE_LOCK, *PIO_REMOVE_LOCK;$/;"	t
+PIO_REMOVE_LOCK_TRACKING_BLOCK	XBCD_driver.h	/^	typedef struct _IO_REMOVE_LOCK_TRACKING_BLOCK * PIO_REMOVE_LOCK_TRACKING_BLOCK;$/;"	t
+PREAD_INFO	XBCD_driver.h	/^} READ_INFO, *PREAD_INFO;$/;"	t
+PWRITE_INFO	XBCD_driver.h	/^} WRITE_INFO, *PWRITE_INFO;$/;"	t
+PhysicalDeviceObject	XBCD_hid.h	/^    PDEVICE_OBJECT  PhysicalDeviceObject;$/;"	m	struct:_HID_DEVICE_EXTENSION
+PowerDown	XBCD_driver.h	/^	BOOLEAN PowerDown;$/;"	m	struct:_DEVICE_EXTENSION
+ProductID	XBCD_hid.h	/^    USHORT          ProductID;$/;"	m	struct:_HID_DEVICE_ATTRIBUTES
+RD1	XBCD_report.c	/^UCHAR RD1[]=$/;"	v
+RD2	XBCD_report.c	/^UCHAR RD2[]=$/;"	v
+RD3	XBCD_report.c	/^UCHAR RD3[]=$/;"	v
+RDA	XBCD_report.c	/^UCHAR RDA[5][2]=$/;"	v
+RDACB	XBCD_report.c	/^UCHAR RDACB[]=$/;"	v
+RDX360	XBCD_report.c	/^UCHAR RDX360[]=$/;"	v
+READ_INFO	XBCD_driver.h	/^} READ_INFO, *PREAD_INFO;$/;"	t
+RStickDZ	XBCD_driver.h	/^	LONG RStickDZ;$/;"	m	struct:_DEVICE_EXTENSION
+RaFactor	XBCD_driver.h	/^	UCHAR RaFactor;$/;"	m	struct:_DEVICE_EXTENSION
+ReadCompletion	XBCD_usb.c	/^NTSTATUS ReadCompletion(PDEVICE_OBJECT junk, PIRP pIrp, PVOID Context)$/;"	f
+ReadInfo	XBCD_driver.h	/^	READ_INFO ReadInfo;$/;"	m	struct:_DEVICE_EXTENSION
+ReadLock	XBCD_driver.h	/^	KSPIN_LOCK ReadLock;$/;"	m	struct:_DEVICE_EXTENSION
+ReadRegistry	XBCD_driver.c	/^int ReadRegistry(HANDLE hKey, PCWSTR entry, PUCHAR Values, unsigned int BufSize)$/;"	f
+RegistryPath	XBCD_hid.h	/^	PUNICODE_STRING RegistryPath;$/;"	m	struct:_HID_MINIDRIVER_REGISTRATION
+Release	XBCD_driver.h	/^	UCHAR Release;$/;"	m	struct:_FEATURE_GET_VERSION
+ReleaseRemoveLock	XBCD_driver.h	79;"	d
+ReleaseRemoveLock	XBCD_driver.h	85;"	d
+ReleaseRemoveLockAndWait	XBCD_driver.h	80;"	d
+ReleaseRemoveLockAndWait	XBCD_driver.h	86;"	d
+RemoveEvent	XBCD_driver.h	/^		KEVENT      RemoveEvent;$/;"	m	struct:_IO_REMOVE_LOCK_COMMON_BLOCK
+RemoveEvent	XBCD_driver.h	/^	KEVENT RemoveEvent;$/;"	m	struct:_DEVICE_EXTENSION
+RemoveLock	XBCD_driver.h	/^	IO_REMOVE_LOCK RemoveLock;$/;"	m	struct:_DEVICE_EXTENSION
+Removed	XBCD_driver.h	/^		BOOLEAN     Removed;$/;"	m	struct:_IO_REMOVE_LOCK_COMMON_BLOCK
+RequestCount	XBCD_driver.h	/^	LONG RequestCount;$/;"	m	struct:_DEVICE_EXTENSION
+Reserved	XBCD_driver.h	/^		BOOLEAN     Reserved [3];$/;"	m	struct:_IO_REMOVE_LOCK_COMMON_BLOCK
+Reserved	XBCD_hid.h	/^    UCHAR           Reserved[3];$/;"	m	struct:_HID_MINIDRIVER_REGISTRATION
+Reserved	XBCD_hid.h	/^    USHORT          Reserved[11];$/;"	m	struct:_HID_DEVICE_ATTRIBUTES
+Reserved1	XBCD_driver.h	/^		ULONG       Reserved1[4];$/;"	m	struct:_IO_REMOVE_LOCK_DBG_BLOCK
+Reserved2	XBCD_driver.h	/^		PVOID       Reserved2;$/;"	m	struct:_IO_REMOVE_LOCK_DBG_BLOCK
+Revision	XBCD_hid.h	/^    ULONG           Revision;$/;"	m	struct:_HID_MINIDRIVER_REGISTRATION
+SemiAxes	XBCD_driver.h	/^	GamepadSemiAxis SemiAxes[NR_SEMIAXES];$/;"	m	struct:_DEVICE_EXTENSION
+SendAwaitUrb	XBCD_usb.c	/^NTSTATUS SendAwaitUrb(PDEVICE_OBJECT pFdo, PURB pUrb)$/;"	f
+Signature	XBCD_driver.h	/^		LONG        Signature;$/;"	m	struct:_IO_REMOVE_LOCK_DBG_BLOCK
+Signature	XBCD_driver.h	/^	ULONG Signature;	\/\/Should be XBCD_SIGNATURE when data is received$/;"	m	struct:_FEATURE_GET_IS360
+Signature	XBCD_driver.h	/^	ULONG Signature;	\/\/Should be XBCD_SIGNATURE when data is received$/;"	m	struct:_FEATURE_GET_VERSION
+Signature	XBCD_driver.h	/^	ULONG Signature;	\/\/Should be XBCD_SIGNATURE when data is received$/;"	m	struct:_FEATURE_SET_CONFIG
+Size	XBCD_hid.h	/^    ULONG           Size;$/;"	m	struct:_HID_DEVICE_ATTRIBUTES
+Spin	XBCD_driver.h	/^		KSPIN_LOCK  Spin;$/;"	m	struct:_IO_REMOVE_LOCK_DBG_BLOCK
+StopInterruptUrb	XBCD_usb.c	/^VOID StopInterruptUrb(PDEVICE_EXTENSION pDevExt)$/;"	f
+SurpriseRemoved	XBCD_driver.h	/^	BOOLEAN SurpriseRemoved;$/;"	m	struct:_DEVICE_EXTENSION
+TThreshold	XBCD_driver.h	/^	LONG TThreshold;$/;"	m	struct:_DEVICE_EXTENSION
+VER_MAJOR	XBCD_driver.h	34;"	d
+VER_MINOR	XBCD_driver.h	35;"	d
+VER_RELEASE	XBCD_driver.h	36;"	d
+Value	SemiAxis.h	/^	LONG Value;$/;"	m	struct:GamepadSemiAxis
+VendorID	XBCD_hid.h	/^    USHORT          VendorID;$/;"	m	struct:_HID_DEVICE_ATTRIBUTES
+VersionNumber	XBCD_hid.h	/^    USHORT          VersionNumber;$/;"	m	struct:_HID_DEVICE_ATTRIBUTES
+WIN98	XBCD_driver.h	32;"	d
+WRITE_INFO	XBCD_driver.h	/^} WRITE_INFO, *PWRITE_INFO;$/;"	t
+WriteCompletion	XBCD_usb.c	/^NTSTATUS WriteCompletion(PDEVICE_OBJECT junk, PIRP pIrp, PVOID Context)$/;"	f
+WriteInfo	XBCD_driver.h	/^	WRITE_INFO WriteInfo;$/;"	m	struct:_DEVICE_EXTENSION
+WriteLock	XBCD_driver.h	/^	KSPIN_LOCK WriteLock;$/;"	m	struct:_DEVICE_EXTENSION
+XBCDAddDevice	XBCD_driver.c	/^NTSTATUS XBCDAddDevice(IN PDRIVER_OBJECT pDriverObject, IN PDEVICE_OBJECT pFdo)$/;"	f
+XBCDClose	XBCD_driver.c	/^NTSTATUS XBCDClose(IN PDEVICE_OBJECT pFdo, IN PIRP pIrp)$/;"	f
+XBCDCreate	XBCD_driver.c	/^NTSTATUS XBCDCreate(IN PDEVICE_OBJECT pFdo, IN PIRP pIrp)$/;"	f
+XBCDDecRequestCount	XBCD_driver.c	/^VOID XBCDDecRequestCount(PDEVICE_EXTENSION pDevExt)$/;"	f
+XBCDDispatchDevice	XBCD_control.c	/^NTSTATUS XBCDDispatchDevice(IN PDEVICE_OBJECT pFdo, IN PIRP pIrp)$/;"	f
+XBCDDispatchIntDevice	XBCD_control.c	/^NTSTATUS XBCDDispatchIntDevice(IN PDEVICE_OBJECT pFdo, IN PIRP pIrp)$/;"	f
+XBCDDispatchPnp	XBCD_driver.c	/^NTSTATUS XBCDDispatchPnp(IN PDEVICE_OBJECT pFdo, IN PIRP pIrp)$/;"	f
+XBCDDispatchPower	XBCD_driver.c	/^NTSTATUS XBCDDispatchPower(IN PDEVICE_OBJECT pFdo, IN PIRP pIrp)$/;"	f
+XBCDDispatchSystem	XBCD_control.c	/^NTSTATUS XBCDDispatchSystem(IN PDEVICE_OBJECT pFdo, IN PIRP pIrp)$/;"	f
+XBCDIncRequestCount	XBCD_driver.c	/^NTSTATUS XBCDIncRequestCount(PDEVICE_EXTENSION pDevExt)$/;"	f
+XBCDPnPComplete	XBCD_driver.c	/^NTSTATUS XBCDPnPComplete(PDEVICE_OBJECT pFdo, PIRP pIrp, PVOID Context)$/;"	f
+XBCDReadConfig	XBCD_driver.c	/^void XBCDReadConfig(IN PDEVICE_OBJECT pFdo)$/;"	f
+XBCDReadData	XBCD_control.c	/^NTSTATUS XBCDReadData(PDEVICE_OBJECT pFdo, PIRP pIrp)$/;"	f
+XBCDRemoveDevice	XBCD_driver.c	/^VOID XBCDRemoveDevice(PDEVICE_OBJECT pFdo, PIRP pIrp)$/;"	f
+XBCDStartDevice	XBCD_driver.c	/^NTSTATUS XBCDStartDevice(PDEVICE_OBJECT pFdo, PIRP pIrp)$/;"	f
+XBCDStopDevice	XBCD_driver.c	/^VOID XBCDStopDevice(PDEVICE_OBJECT pFdo, PIRP pIrp)$/;"	f
+XBCDUnload	XBCD_driver.c	/^VOID XBCDUnload(IN PDRIVER_OBJECT pDriverObject)$/;"	f
+XBCDUpdate360Leds	XBCD_driver.c	/^void XBCDUpdate360Leds (PDEVICE_EXTENSION pDevExt)$/;"	f
+XBCD_SIGNATURE	XBCD_driver.h	134;"	d
+_APS_NEXT_COMMAND_VALUE	resource.h	31;"	d
+_APS_NEXT_CONTROL_VALUE	resource.h	32;"	d
+_APS_NEXT_RESOURCE_VALUE	resource.h	30;"	d
+_APS_NEXT_SYMED_VALUE	resource.h	33;"	d
+_DEVICE_EXTENSION	XBCD_driver.h	/^typedef struct _DEVICE_EXTENSION{$/;"	s
+_FEATURE_GET_IS360	XBCD_driver.h	/^typedef struct _FEATURE_GET_IS360$/;"	s
+_FEATURE_GET_VERSION	XBCD_driver.h	/^typedef struct _FEATURE_GET_VERSION$/;"	s
+_FEATURE_SET_CONFIG	XBCD_driver.h	/^typedef struct _FEATURE_SET_CONFIG$/;"	s
+_HID_DESCRIPTOR	XBCD_hid.h	/^typedef struct _HID_DESCRIPTOR$/;"	s
+_HID_DESCRIPTOR_DESC_LIST	XBCD_hid.h	/^    struct _HID_DESCRIPTOR_DESC_LIST$/;"	s	struct:_HID_DESCRIPTOR
+_HID_DEVICE_ATTRIBUTES	XBCD_hid.h	/^typedef struct _HID_DEVICE_ATTRIBUTES {$/;"	s
+_HID_DEVICE_EXTENSION	XBCD_hid.h	/^typedef struct _HID_DEVICE_EXTENSION {$/;"	s
+_HID_MINIDRIVER_REGISTRATION	XBCD_hid.h	/^typedef struct _HID_MINIDRIVER_REGISTRATION {$/;"	s
+_IO_REMOVE_LOCK	XBCD_driver.h	/^	typedef struct _IO_REMOVE_LOCK {$/;"	s
+_IO_REMOVE_LOCK_COMMON_BLOCK	XBCD_driver.h	/^	typedef struct _IO_REMOVE_LOCK_COMMON_BLOCK {$/;"	s
+_IO_REMOVE_LOCK_DBG_BLOCK	XBCD_driver.h	/^	typedef struct _IO_REMOVE_LOCK_DBG_BLOCK {$/;"	s
+_READ_INFO	XBCD_driver.h	/^typedef struct _READ_INFO$/;"	s
+_SEMIAXIS_	SemiAxis.h	26;"	d
+_WRITE_INFO	XBCD_driver.h	/^typedef struct _WRITE_INFO$/;"	s
+_fltused	XBCD_control.c	/^ULONG _fltused = 0;$/;"	v
+applyDeadzone2D	XBCD_control.c	/^void applyDeadzone2D(PLONG lpAxis1, PLONG lpAxis2, LONG DeadZone, BOOLEAN bFullAxes)$/;"	f
+bCountry	XBCD_hid.h	/^    UCHAR   bCountry;$/;"	m	struct:_HID_DESCRIPTOR
+bDescriptorType	XBCD_hid.h	/^    UCHAR   bDescriptorType;$/;"	m	struct:_HID_DESCRIPTOR
+bFullRange	XBCD_driver.h	/^	BOOLEAN bFullRange[2]; \/\/Extend the range of the analog sticks. 0-Left, 1-Right$/;"	m	struct:_DEVICE_EXTENSION
+bHasMotors	XBCD_driver.h	/^	BOOLEAN bHasMotors;$/;"	m	struct:_DEVICE_EXTENSION
+bLength	XBCD_hid.h	/^    UCHAR   bLength;$/;"	m	struct:_HID_DESCRIPTOR
+bNumDescriptors	XBCD_hid.h	/^    UCHAR   bNumDescriptors;$/;"	m	struct:_HID_DESCRIPTOR
+bReadPending	XBCD_driver.h	/^	BOOLEAN bReadPending;$/;"	m	struct:_DEVICE_EXTENSION
+bReportType	XBCD_hid.h	/^       UCHAR   bReportType;$/;"	m	struct:_HID_DESCRIPTOR::_HID_DESCRIPTOR_DESC_LIST
+bWritePending	XBCD_driver.h	/^	BOOLEAN bWritePending;$/;"	m	struct:_DEVICE_EXTENSION
+bcdHID	XBCD_hid.h	/^    USHORT  bcdHID;$/;"	m	struct:_HID_DESCRIPTOR
+dd	XBCD_driver.h	/^	USB_DEVICE_DESCRIPTOR dd;$/;"	m	struct:_DEVICE_EXTENSION
+ftoi	XBCD_control.c	/^int ftoi(float f)$/;"	f
+hInPipe	XBCD_driver.h	/^	USBD_PIPE_HANDLE hInPipe;$/;"	m	struct:_DEVICE_EXTENSION
+hOutPipe	XBCD_driver.h	/^	USBD_PIPE_HANDLE hOutPipe;$/;"	m	struct:_DEVICE_EXTENSION
+hconfig	XBCD_driver.h	/^	USBD_CONFIGURATION_HANDLE hconfig;$/;"	m	struct:_DEVICE_EXTENSION
+hwInData	XBCD_driver.h	/^	UCHAR hwInData[20];$/;"	m	struct:_DEVICE_EXTENSION
+hwOutData	XBCD_driver.h	/^	UCHAR hwOutData[20];$/;"	m	struct:_DEVICE_EXTENSION
+id	XBCD_driver.h	/^	UCHAR id;			\/\/Report ID$/;"	m	struct:_FEATURE_GET_IS360
+id	XBCD_driver.h	/^	UCHAR id;			\/\/Report ID$/;"	m	struct:_FEATURE_GET_VERSION
+id	XBCD_driver.h	/^	UCHAR id;			\/\/Report ID$/;"	m	struct:_FEATURE_SET_CONFIG
+is360	XBCD_driver.h	/^	BOOLEAN is360;$/;"	m	struct:_DEVICE_EXTENSION
+is360	XBCD_driver.h	/^	UCHAR is360;		\/\/Nonzero if Controler is XBox360$/;"	m	struct:_FEATURE_GET_IS360
+isWin9x	XBCD_driver.h	/^	BOOLEAN isWin9x;$/;"	m	struct:_DEVICE_EXTENSION
+nButtons	XBCD_driver.h	/^	UCHAR nButtons;$/;"	m	struct:_DEVICE_EXTENSION
+pFdo	XBCD_driver.h	/^	PDEVICE_OBJECT pFdo;$/;"	m	struct:_DEVICE_EXTENSION
+pIrp	XBCD_driver.h	/^	PIRP pIrp;$/;"	m	struct:_READ_INFO
+pIrp	XBCD_driver.h	/^	PIRP pIrp;$/;"	m	struct:_WRITE_INFO
+pLowerPdo	XBCD_driver.h	/^	PDEVICE_OBJECT pLowerPdo;$/;"	m	struct:_DEVICE_EXTENSION
+pPdo	XBCD_driver.h	/^	PDEVICE_OBJECT pPdo;$/;"	m	struct:_DEVICE_EXTENSION
+pUrb	XBCD_driver.h	/^	PURB pUrb;$/;"	m	struct:_READ_INFO
+pUrb	XBCD_driver.h	/^	PURB pUrb;$/;"	m	struct:_WRITE_INFO
+pcd	XBCD_driver.h	/^	PUSB_CONFIGURATION_DESCRIPTOR pcd;$/;"	m	struct:_DEVICE_EXTENSION
+setDefaultMapMatrix	XBCD_driver.c	/^void setDefaultMapMatrix(unsigned int* pMapMatrix, BOOLEAN bWin9x, BOOLEAN b360)$/;"	f
+sqrt2	XBCD_control.c	/^float sqrt2(float x)$/;"	f
+timeDPC	XBCD_driver.h	/^	KDPC timeDPC;$/;"	m	struct:_DEVICE_EXTENSION
+timer	XBCD_driver.h	/^	KTIMER timer;$/;"	m	struct:_DEVICE_EXTENSION
+timerDPCProc	XBCD_control.c	/^VOID timerDPCProc(IN PKDPC Dpc, IN PDEVICE_EXTENSION pDevExt, IN PVOID SystemArgument1, IN PVOID SystemArgument2)$/;"	f
+timerEnabled	XBCD_driver.h	/^	BOOLEAN timerEnabled;$/;"	m	struct:_DEVICE_EXTENSION
+wReportLength	XBCD_hid.h	/^       USHORT  wReportLength;$/;"	m	struct:_HID_DESCRIPTOR::_HID_DESCRIPTOR_DESC_LIST

@@ -1,0 +1,261 @@
+[Version]
+Signature="$CHICAGO$"
+Class=HIDClass
+ClassGuid={745a17a0-74d3-11d0-b6fe-00a0c90f57da}
+Provider=%prov%
+DriverVer=05/16/2004, 0.57.0
+
+; Driver information
+; ------------------
+[Manufacturer]
+%Mfg%=DeviceList, NTx86.5.1
+
+;Windows 98/ME/2000
+[DeviceList]
+"XBCD XBox Gamepad"=Install, USB\CLASS_58&SUBCLASS_42
+"XBCD XBox Gamepad"=Install, USB\VID_0738&PID_4516      ; Mad Catz 4516
+"XBCD XBox Gamepad"=Install, USB\VID_0738&PID_4526      ; Mad Catz 4526
+"XBCD XBox Gamepad"=Install, USB\VID_0738&PID_4536 	; Madcatz Microcon Xbox Controller
+"XBCD XBox Gamepad"=Install, USB\VID_045E&PID_0285      ; Microsoft Xbox Controller S
+"XBCD XBox Gamepad"=Install, USB\VID_045E&PID_0289      ; Microsoft Xbox Controller S
+"XBCD XBox Gamepad"=Install, USB\VID_045E&PID_0202      ; Microsoft Xbox Controller
+"XBCD XBox Gamepad"=Install, USB\VID_046D&PID_CA88	; Logitech Thunderpad
+
+;Windows XP
+[DeviceList.NTx86.5.1]
+"XBCD XBox Gamepad"=InstallXP, USB\CLASS_58&SUBCLASS_42
+"XBCD XBox Gamepad"=InstallXP, USB\VID_0738&PID_4516      ; Mad Catz 4516
+"XBCD XBox Gamepad"=InstallXP, USB\VID_0738&PID_4526      ; Mad Catz 4526
+"XBCD XBox Gamepad"=InstallXP, USB\VID_0738&PID_4536 	  ; Madcatz Microcon Xbox Controller
+"XBCD XBox Gamepad"=InstallXP, USB\VID_045E&PID_0285      ; Microsoft Xbox Controller S
+"XBCD XBox Gamepad"=InstallXP, USB\VID_045E&PID_0289      ; Microsoft Xbox Controller S
+"XBCD XBox Gamepad"=InstallXP, USB\VID_045E&PID_0202      ; Microsoft Xbox Controller
+"XBCD XBox Gamepad"=InstallXP, USB\VID_046D&PID_CA88	  ; Logitech Thunderpad
+
+; Installation section
+; --------------------
+[Install]  ; Installation script for Windows 98/Me/2000
+CopyFiles=FilesToCopy,FilesToCopy.Inf,FilesToCopy.Rumble,FilesToCopy.Config
+DelReg=DeleteRegistry
+AddReg=UpDateRegistry
+
+[Install.NTx86]  ; Installation script for Windows 2000
+CopyFiles=FilesToCopy,FilesToCopy.Inf,FilesToCopy.Rumble,FilesToCopy.Config
+DelReg=DeleteRegistry
+AddReg=UpDateRegistry
+
+[InstallXP.NTx86]  ; Installation script for Windows XP
+CopyFiles=FilesToCopy,FilesToCopy.Inf,FilesToCopy.Rumble,FilesToCopy.ConfigXP
+DelReg=DeleteRegistry
+AddReg=UpDateRegistry,XPReg
+
+[DeleteRegistry]
+HKLM,System\CurrentControlSet\Control\MediaProperties\PrivateProperties\Joystick\OEM\VID_0738&PID_4516,,0x00002000
+HKLM,System\CurrentControlSet\Control\MediaProperties\PrivateProperties\DirectInput\VID_0738&PID_4516,,0x00002000
+
+[XPReg]
+HKCR,CLSID\%CONF_CLSID%,,,%Config.CLSID.Desc%
+HKCR,CLSID\%CONF_CLSID%\InProcServer32,,,%11%\XBCDSU.dll
+HKCR,CLSID\%CONF_CLSID%\InProcServer32,ThreadingModel,,"Apartment"
+
+HKLM,%KEY_OEM%,ConfigCLSID,,%CONF_CLSID%
+
+[UpDateRegistry]
+HKR,,DevLoader,,*ntkern
+HKR,,NTMPDriver,,xbcd.sys
+
+HKCR,CLSID\%CLSID%,,,%Rumble.CLSID.Desc%
+HKCR,CLSID\%CLSID%\InProcServer32,,,%11%\XBCDR.dll
+HKCR,CLSID\%CLSID%\InProcServer32,ThreadingModel,,"Both"
+
+HKLM,%KEY_OEM%,OEMData,1,03,00,08,10,10,00,00,00
+HKLM,%KEY_OEM%,OEMName,,%XBCD.DeviceDesc%
+
+HKLM,%KEY_OEM%\Axes\0,,,"X"
+HKLM,%KEY_OEM%\Axes\0,Attributes,1,01,81,00,00,01,00,30,00
+HKLM,%KEY_OEM%\Axes\0,FFAttributes,1,0A,00,00,00,00,01,00,00
+
+HKLM,%KEY_OEM%\Axes\1,,,"Y"
+HKLM,%KEY_OEM%\Axes\1,Attributes,1,01,81,00,00,01,00,31,00
+HKLM,%KEY_OEM%\Axes\1,FFAttributes,1,0A,00,00,00,00,01,00,00
+
+HKLM,%KEY_OEM%\Buttons\0,,,"1"
+HKLM,%KEY_OEM%\Buttons\0,Attributes,1,02,80,00,00,09,00,01,00
+
+HKLM,%KEY_OEM%\Buttons\1,,,"2"
+HKLM,%KEY_OEM%\Buttons\1,Attributes,1,02,80,00,00,09,00,02,00
+
+HKLM,%KEY_OEM%\Buttons\2,,,"3"
+HKLM,%KEY_OEM%\Buttons\2,Attributes,1,02,80,00,00,09,00,03,00
+
+HKLM,%KEY_OEM%\Buttons\3,,,"4"
+HKLM,%KEY_OEM%\Buttons\3,Attributes,1,02,80,00,00,09,00,04,00
+
+HKLM,%KEY_OEM%\Buttons\4,,,"5"
+HKLM,%KEY_OEM%\Buttons\4,Attributes,1,02,80,00,00,09,00,05,00
+
+HKLM,%KEY_OEM%\Buttons\5,,,"6"
+HKLM,%KEY_OEM%\Buttons\5,Attributes,1,02,80,00,00,09,00,06,00
+
+HKLM,%KEY_OEM%\Buttons\6,,,"7"
+HKLM,%KEY_OEM%\Buttons\6,Attributes,1,02,80,00,00,09,00,07,00
+
+HKLM,%KEY_OEM%\Buttons\7,,,"8"
+HKLM,%KEY_OEM%\Buttons\7,Attributes,1,02,80,00,00,09,00,08,00
+
+HKLM,%KEY_OEM%\Buttons\8,,,"9"
+HKLM,%KEY_OEM%\Buttons\8,Attributes,1,02,80,00,00,09,00,09,00
+
+HKLM,%KEY_OEM%\Buttons\9,,,"10"
+HKLM,%KEY_OEM%\Buttons\9,Attributes,1,02,80,00,00,09,00,0A,00
+
+HKLM,%KEY_OEM%\Buttons\10,,,"11"
+HKLM,%KEY_OEM%\Buttons\10,Attributes,1,02,80,00,00,09,00,0B,00
+
+HKLM,%KEY_OEM%\Buttons\11,,,"12"
+HKLM,%KEY_OEM%\Buttons\11,Attributes,1,02,80,00,00,09,00,0C,00
+
+HKLM,%KEY_OEM%\Buttons\12,,,"13"
+HKLM,%KEY_OEM%\Buttons\12,Attributes,1,02,80,00,00,09,00,0D,00
+
+HKLM,%KEY_OEM%\Buttons\13,,,"14"
+HKLM,%KEY_OEM%\Buttons\13,Attributes,1,02,80,00,00,09,00,0E,00
+
+HKLM,%KEY_OEM%\Buttons\14,,,"15"
+HKLM,%KEY_OEM%\Buttons\14,Attributes,1,02,80,00,00,09,00,0F,00
+
+HKLM,%KEY_OEM%\Buttons\15,,,"16"
+HKLM,%KEY_OEM%\Buttons\15,Attributes,1,02,80,00,00,09,00,10,00
+
+
+HKLM,%KEY_OEM%\OEMForceFeedback,Attributes,1,00,00,00,00,E8,03,00,00,E8,03,00,00
+HKLM,%KEY_OEM%\OEMForceFeedback,CLSID,,"%CLSID%"
+
+HKLM,%KEY_OEM%\OEMForceFeedback\Effects\%GUID_ConstantForce%,,,"%Constant.Desc%"
+HKLM,%KEY_OEM%\OEMForceFeedback\Effects\%GUID_ConstantForce%,Attributes,1,73,01,00,00,01,06,00,00,ED,01,00,00,00,00,00,00,20,00,00,00
+
+HKLM,%KEY_OEM%\OEMForceFeedback\Effects\%GUID_Sine%,,,"%Sine.Desc%"
+HKLM,%KEY_OEM%\OEMForceFeedback\Effects\%GUID_Sine%,Attributes,1,D3,02,00,00,03,06,00,00,ED,01,00,00,00,00,00,00,20,00,00,00
+
+HKLM,%KEY_OEM%\OEMForceFeedback\Effects\%GUID_RampForce%,,,"%Ramp.Desc%"
+HKLM,%KEY_OEM%\OEMForceFeedback\Effects\%GUID_RampForce%,Attributes,1,7D,00,00,00,02,06,00,00,ED,01,00,00,00,00,00,00,20,00,00,00
+
+HKLM,%KEY_OEM%\OEMForceFeedback\Effects\%GUID_Square%,,,"%Square.Desc%"
+HKLM,%KEY_OEM%\OEMForceFeedback\Effects\%GUID_Square%,Attributes,1,1D,01,00,00,03,06,00,00,ED,01,00,00,00,00,00,00,20,00,00,00
+
+HKLM,%KEY_OEM%\OEMForceFeedback\Effects\%GUID_Triangle%,,,"%Triangle.Desc%"
+HKLM,%KEY_OEM%\OEMForceFeedback\Effects\%GUID_Triangle%,Attributes,1,CB,01,00,00,03,06,00,00,ED,01,00,00,00,00,00,00,20,00,00,00
+
+HKLM,%KEY_OEM%\OEMForceFeedback\Effects\%GUID_SawtoothUp%,,,"%SawtoothUp.Desc%"
+HKLM,%KEY_OEM%\OEMForceFeedback\Effects\%GUID_SawtoothUp%,Attributes,1,1E,02,00,00,03,06,00,00,ED,01,00,00,00,00,00,00,20,00,00,00
+
+HKLM,%KEY_OEM%\OEMForceFeedback\Effects\%GUID_SawtoothDown%,,,"%SawtoothDown.Desc%"
+HKLM,%KEY_OEM%\OEMForceFeedback\Effects\%GUID_SawtoothDown%,Attributes,1,5F,03,00,00,03,06,00,00,ED,01,00,00,00,00,00,00,20,00,00,00
+
+HKLM,%KEY_OEM%\OEMForceFeedback\Effects\%GUID_Spring%,,,"%Spring.Desc%"
+HKLM,%KEY_OEM%\OEMForceFeedback\Effects\%GUID_Spring%,Attributes,1,94,03,00,00,04,48,00,00,65,01,00,00,00,00,00,00,20,00,00,00
+
+HKLM,%KEY_OEM%\OEMForceFeedback\Effects\%GUID_Friction%,,,"%Friction.Desc%"
+HKLM,%KEY_OEM%\OEMForceFeedback\Effects\%GUID_Friction%,Attributes,1,D7,00,00,00,04,48,00,00,65,01,00,00,00,00,00,00,20,00,00,00
+
+HKLM,%KEY_OEM%\OEMForceFeedback\Effects\%GUID_Damper%,,,"%Damper.Desc%"
+HKLM,%KEY_OEM%\OEMForceFeedback\Effects\%GUID_Damper%,Attributes,1,70,02,00,00,04,48,00,00,65,01,00,00,00,00,00,00,20,00,00,00
+
+HKLM,%KEY_OEM%\OEMForceFeedback\Effects\%GUID_Inertia%,,,"%Inertia.Desc%"
+HKLM,%KEY_OEM%\OEMForceFeedback\Effects\%GUID_Inertia%,Attributes,1,4F,02,00,00,04,48,00,00,65,01,00,00,00,00,00,00,20,00,00,00
+
+; Defining XBCD Service
+; ---------------------------
+[Install.Services]
+Addservice=XBCD, 0x00000002, Service_Info
+
+[Install.NTx86.Services]
+Addservice=XBCD, 0x00000002, Service_Info
+
+[InstallXP.NTx86.Services]
+Addservice=XBCD, 0x00000002, Service_Info
+
+[Service_Info]
+DisplayName    = %Service_Description%
+ServiceType    = 1                  ; SERVICE_KERNEL_DRIVER
+StartType      = 3                  ; SERVICE_DEMAND_START
+ErrorControl   = 1                  ; SERVICE_ERROR_NORMAL
+ServiceBinary  = %10%\System32\Drivers\xbcd.sys
+
+; Source file information
+; -----------------------
+[DestinationDirs]
+FilesToCopy=10,System32\Drivers
+FilesToCopy.Inf=10,Inf
+FilesToCopy.Rumble=11
+FilesToCopy.Config=11
+FilesToCopy.ConfigXP=11
+
+[SourceDisksNames]
+1="XBCD Installation Disk",,
+
+[SourceDisksFiles]
+xbcd.sys=1
+xbcd.inf=1
+XBCDR.dll=1
+XBCDSU.dll=1
+
+[SourceDisksFiles.NTx86]
+xbcd.sys=1
+xbcd.inf=1
+XBCDR.dll=1
+XBCDSU.dll=1
+
+[FilesToCopy]
+xbcd.sys,,,0x6  ; 0x6 == COPYFLG_NOVERSIONCHECK || COPYFLG_NOSKIP
+
+[FilesToCopy.Inf]
+XBCD.inf,,,0x6  ; 0x6 == COPYFLG_NOVERSIONCHECK || COPYFLG_NOSKIP
+
+[FilesToCopy.Rumble]
+XBCDR.dll,,,0x6  ; 0x6 == COPYFLG_NOVERSIONCHECK || COPYFLG_NOSKIP
+
+[FilesToCopy.ConfigXP]
+XBCDSU.dll,,,0x6  ; 0x6 == COPYFLG_NOVERSIONCHECK || COPYFLG_NOSKIP
+
+[FilesToCopy.Config]
+XBCDSU.cpl,XBCDSU.dll,,0x6  ; 0x6 == COPYFLG_NOVERSIONCHECK || COPYFLG_NOSKIP
+
+;-------------------
+[Strings]
+prov="Redcl0ud"
+Service_Description="XBCD Kernel Module"
+Mfg="Redcl0ud"
+
+XBCD.DeviceDesc="XBCD XBox Gamepad"
+Rumble.CLSID.Desc="XBCD Rumble Driver"
+Config.CLSID.Desc="XBCD Setup"
+
+Constant.Desc     ="Constant"
+Sine.Desc         ="Sine"
+Ramp.Desc         ="Ramp"
+Square.Desc       ="Square"
+Triangle.Desc     ="Triangle"
+SawtoothUp.Desc   ="SawtoothUp"
+SawtoothDown.Desc ="SawtoothDown"
+Spring.Desc       ="Spring"
+Friction.Desc     ="Friction"
+Damper.Desc       ="Damper"
+Inertia.Desc      ="Inertia"
+
+KEY_OEM="System\CurrentControlSet\Control\MediaProperties\PrivateProperties\Joystick\OEM\VID_0738&PID_4516"
+
+CLSID="{5A31DDDE-75C8-4678-8DFB-870DE54EDDAD}"
+CONF_CLSID="{5F9D4D40-3C36-47d2-940C-89161FCCCB94}"
+
+GUID_ConstantForce="{13541C20-8E33-11D0-9AD0-00A0C9A06E35}"
+GUID_Sine         ="{13541C23-8E33-11D0-9AD0-00A0C9A06E35}"
+GUID_RampForce    ="{13541C21-8E33-11D0-9AD0-00A0C9A06E35}"
+GUID_Square       ="{13541C22-8E33-11D0-9AD0-00A0C9A06E35}"
+GUID_Triangle     ="{13541C24-8E33-11D0-9AD0-00A0C9A06E35}"
+GUID_SawtoothUp   ="{13541C25-8E33-11D0-9AD0-00A0C9A06E35}"
+GUID_SawtoothDown ="{13541C26-8E33-11D0-9AD0-00A0C9A06E35}"
+GUID_Spring       ="{13541C27-8E33-11D0-9AD0-00A0C9A06E35}"
+GUID_Friction     ="{13541C2A-8E33-11D0-9AD0-00A0C9A06E35}"
+GUID_Damper       ="{13541C28-8E33-11D0-9AD0-00A0C9A06E35}"
+GUID_Inertia      ="{13541C29-8E33-11D0-9AD0-00A0C9A06E35}"
