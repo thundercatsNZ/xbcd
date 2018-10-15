@@ -1,4 +1,10 @@
-Version 0.2.6
+Version 1.2.0
+ - Moved driver version and date above the original "1.1.0" to deal with Windows and other apps, (e.g. DriverClean) thinking "0.2.7" precedes the original driver version.
+ - Minor tidy up
+ - Added some new controller IDs
+ - removed references to x360ce (use standalone x360ce instead) 
+
+ Version 0.2.6
  - Fixed 360 LEDs not restoring out of standby.
 
 Version 0.2.5
