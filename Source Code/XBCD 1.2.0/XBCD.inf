@@ -40,10 +40,12 @@ DriverVer= 01/01/2018, 1.2.0
 %XBCD.DeviceDesc%			=Install,		USB\VID_0E6F&PID_0008		; After Glow Pro Controller 
 %XBCD.DeviceDesc%			=Install,		USB\VID_0F30&PID_010B		; Philips Recoil Controller
 %XBCD.DeviceDesc%			=Install,		USB\VID_0F30&PID_0202		; Big Ben XS Xbox Controller 
+%XBCD.DeviceDesc%			=Install,		USB\VID_102C&PID_FF03		; Joytech Wireless Neo S Controller 
 %XBCD.DeviceDesc%			=Install,		USB\VID_FFFF&PID_FFFF		; PowerWave Xbox Controller 
 
 ;Xbox Arcade Sticks
 %XBCD_Arcade.DeviceDesc%		=Install,		USB\VID_0E4C&PID_1103		; Radica Gamester Reflex 
+%XBCD_Arcade.DeviceDesc%		=Install,		USB\VID_0E4C&PID_A103		; Radica Gamester Reflex 
 
 ;Xbox Steering Wheels
 %XBCD_Wheel.DeviceDesc%		=Install,		USB\VID_044F&PID_0F00		; Thrustmaster Wheel 
@@ -160,10 +162,12 @@ DriverVer= 01/01/2018, 1.2.0
 %XBCD.DeviceDesc%			=Install,		USB\VID_0E6F&PID_0008		; After Glow Pro Controller 
 %XBCD.DeviceDesc%			=Install,		USB\VID_0F30&PID_010B		; Philips Recoil Controller
 %XBCD.DeviceDesc%			=Install,		USB\VID_0F30&PID_0202		; Big Ben XS Xbox Controller 
+%XBCD.DeviceDesc%			=Install,		USB\VID_102C&PID_FF03		; Joytech Wireless Neo S Controller 
 %XBCD.DeviceDesc%			=Install,		USB\VID_FFFF&PID_FFFF		; PowerWave Xbox Controller 
 
 ;Xbox Arcade Sticks
 %XBCD_Arcade.DeviceDesc%		=Install,		USB\VID_0E4C&PID_1103		; Radica Gamester Reflex 
+%XBCD_Arcade.DeviceDesc%		=Install,		USB\VID_0E4C&PID_A103		; Radica Gamester Reflex 
 
 ;Xbox Steering Wheels
 %XBCD_Wheel.DeviceDesc%		=Install,		USB\VID_044F&PID_0F00		; Thrustmaster Wheel 
