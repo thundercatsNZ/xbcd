@@ -4,7 +4,7 @@
 
 [Setup]
 AppName=XBCD Setup
-AppVerName=XBCD Setup v0.2.7
+AppVerName=XBCD Setup v1.2.0
 AppPublisher=XBCD Project
 DefaultDirName={pf32}\XBCD\
 AllowNoIcons=false
@@ -19,13 +19,13 @@ Encryption=false
 VersionInfoCompany=XBCD Project
 VersionInfoDescription=Xbox Controller Drivers
 WizardImageBackColor=clNavy
-AppVersion=0.2.7
+AppVersion=1.2.0
 BackColor=clNavy
 UsePreviousGroup=false
 AppendDefaultGroupName=false
 Uninstallable=true
 VersionInfoCopyright=XBCD Project
-VersionInfoVersion=0.2.7
+VersionInfoVersion=1.2.0
 DefaultGroupName=XBCD
 UninstallDisplayName=XBCD Uninstaller
 AppPublisherURL=http://vba-m.com/
@@ -68,24 +68,24 @@ Source: ..\Source Code\Setup Utility 2.21\WindowsXP.res; DestDir: {app}\Source C
 Source: ..\Source Code\Setup Utility 2.21\XBCDIF.pas; DestDir: {app}\Source Code\Setup Utility 2.21; Components: full
 Source: ..\Source Code\Setup Utility 2.21\XBCDSU.dpr; DestDir: {app}\Source Code\Setup Utility 2.21; Components: full
 Source: ..\Source Code\Setup Utility 2.21\XBCDSU.res; DestDir: {app}\Source Code\Setup Utility 2.21; Components: full
-Source: ..\Source Code\XBCD 0.2.7\Changelog.txt; DestDir: {app}\Source Code\XBCD 0.2.7; Components: full
-Source: ..\Source Code\XBCD 0.2.7\makefile; DestDir: {app}\Source Code\XBCD 0.2.7; Components: full
-Source: ..\Source Code\XBCD 0.2.7\Readme.txt; DestDir: {app}\Source Code\XBCD 0.2.7; Components: full
-Source: ..\Source Code\XBCD 0.2.7\RemoveLock.c; DestDir: {app}\Source Code\XBCD 0.2.7; Components: full
-Source: ..\Source Code\XBCD 0.2.7\resource.h; DestDir: {app}\Source Code\XBCD 0.2.7; Components: full
-Source: ..\Source Code\XBCD 0.2.7\SemiAxis.h; DestDir: {app}\Source Code\XBCD 0.2.7; Components: full
-Source: ..\Source Code\XBCD 0.2.7\sources; DestDir: {app}\Source Code\XBCD 0.2.7; Components: full
-Source: ..\Source Code\XBCD 0.2.7\src_readme.txt; DestDir: {app}\Source Code\XBCD 0.2.7; Components: full
-Source: ..\Source Code\XBCD 0.2.7\tags; DestDir: {app}\Source Code\XBCD 0.2.7; Components: full
-Source: ..\Source Code\XBCD 0.2.7\XBCD.inf; DestDir: {app}\Source Code\XBCD 0.2.7; Components: full
-Source: ..\Source Code\XBCD 0.2.7\XBCD.rc; DestDir: {app}\Source Code\XBCD 0.2.7; Components: full
-Source: ..\Source Code\XBCD 0.2.7\XBCD_control.c; DestDir: {app}\Source Code\XBCD 0.2.7; Components: full
-Source: ..\Source Code\XBCD 0.2.7\XBCD_driver.c; DestDir: {app}\Source Code\XBCD 0.2.7; Components: full
-Source: ..\Source Code\XBCD 0.2.7\XBCD_driver.h; DestDir: {app}\Source Code\XBCD 0.2.7; Components: full
-Source: ..\Source Code\XBCD 0.2.7\XBCD_hid.h; DestDir: {app}\Source Code\XBCD 0.2.7; Components: full
-Source: ..\Source Code\XBCD 0.2.7\XBCD_Old.inf; DestDir: {app}\Source Code\XBCD 0.2.7; Components: full
-Source: ..\Source Code\XBCD 0.2.7\XBCD_report.c; DestDir: {app}\Source Code\XBCD 0.2.7; Components: full
-Source: ..\Source Code\XBCD 0.2.7\XBCD_usb.c; DestDir: {app}\Source Code\XBCD 0.2.7; Components: full
+Source: ..\Source Code\XBCD 1.2.0\Changelog.txt; DestDir: {app}\Source Code\XBCD 1.2.0; Components: full
+Source: ..\Source Code\XBCD 1.2.0\makefile; DestDir: {app}\Source Code\XBCD 1.2.0; Components: full
+Source: ..\Source Code\XBCD 1.2.0\Readme.txt; DestDir: {app}\Source Code\XBCD 1.2.0; Components: full
+Source: ..\Source Code\XBCD 1.2.0\RemoveLock.c; DestDir: {app}\Source Code\XBCD 1.2.0; Components: full
+Source: ..\Source Code\XBCD 1.2.0\resource.h; DestDir: {app}\Source Code\XBCD 1.2.0; Components: full
+Source: ..\Source Code\XBCD 1.2.0\SemiAxis.h; DestDir: {app}\Source Code\XBCD 1.2.0; Components: full
+Source: ..\Source Code\XBCD 1.2.0\sources; DestDir: {app}\Source Code\XBCD 1.2.0; Components: full
+Source: ..\Source Code\XBCD 1.2.0\src_readme.txt; DestDir: {app}\Source Code\XBCD 1.2.0; Components: full
+Source: ..\Source Code\XBCD 1.2.0\tags; DestDir: {app}\Source Code\XBCD 1.2.0; Components: full
+Source: ..\Source Code\XBCD 1.2.0\XBCD.inf; DestDir: {app}\Source Code\XBCD 1.2.0; Components: full
+Source: ..\Source Code\XBCD 1.2.0\XBCD.rc; DestDir: {app}\Source Code\XBCD 1.2.0; Components: full
+Source: ..\Source Code\XBCD 1.2.0\XBCD_control.c; DestDir: {app}\Source Code\XBCD 1.2.0; Components: full
+Source: ..\Source Code\XBCD 1.2.0\XBCD_driver.c; DestDir: {app}\Source Code\XBCD 1.2.0; Components: full
+Source: ..\Source Code\XBCD 1.2.0\XBCD_driver.h; DestDir: {app}\Source Code\XBCD 1.2.0; Components: full
+Source: ..\Source Code\XBCD 1.2.0\XBCD_hid.h; DestDir: {app}\Source Code\XBCD 1.2.0; Components: full
+Source: ..\Source Code\XBCD 1.2.0\XBCD_Old.inf; DestDir: {app}\Source Code\XBCD 1.2.0; Components: full
+Source: ..\Source Code\XBCD 1.2.0\XBCD_report.c; DestDir: {app}\Source Code\XBCD 1.2.0; Components: full
+Source: ..\Source Code\XBCD 1.2.0\XBCD_usb.c; DestDir: {app}\Source Code\XBCD 1.2.0; Components: full
 Source: ..\Source Code\XBCD INTERFACE\HID.pas; DestDir: {app}\Source Code\XBCD INTERFACE; Components: full
 Source: ..\Source Code\XBCD INTERFACE\Main.pas; DestDir: {app}\Source Code\XBCD INTERFACE; Components: full
 Source: ..\Source Code\XBCD INTERFACE\Readme.txt; DestDir: {app}\Source Code\XBCD INTERFACE; Components: full
@@ -145,8 +145,8 @@ Source: x360ce\x64\xinput9_1_0.dll; DestDir: {app}\x360ce\x64\; Flags: uninsrest
 Source: xbcd.ico; DestDir: {app}; Components: compact; Flags: uninsrestartdelete
 
 [Components]
-Name: Compact; Description: XBCD Drivers v0.2.7; Types: Full Compact
-Name: Full; Description: XBCD Drivers v0.2.7 Source Code; Types: Full Compact2
+Name: Compact; Description: XBCD Drivers v1.2.0; Types: Full Compact
+Name: Full; Description: XBCD Drivers v1.2.0 Source Code; Types: Full Compact2
 [Types]
 Name: Compact; Description: XBCD Drivers Only
 Name: Full; Description: XBCD Drivers And Source Code
@@ -7388,7 +7388,7 @@ Name: {app}\Source Code; Components: full
 Name: {app}\Source Code\istool script; Components: full
 Name: {app}\Source Code\Registry Data; Components: full
 Name: {app}\Source Code\Setup Utility 2.21; Components: full
-Name: {app}\Source Code\XBCD 0.2.7; Components: full
+Name: {app}\Source Code\XBCD 1.2.0; Components: full
 Name: {app}\Source Code\XBCD INTERFACE; Components: full
 Name: {app}\Source Code\XBCD Rumble; Components: full
 Name: {app}\Source Code\XBCD Rumble\DevCpp; Components: full
