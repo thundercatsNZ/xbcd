@@ -1,11 +1,11 @@
-[Version] 
-Signature = "$Windows NT$" 
+[Version]
+Signature = "$Windows NT$"
 Class=HID
-ClassGUID={745a17a0-74d3-11d0-b6fe-00a0c90f57da} 
-Provider=%XBCDP% 
+ClassGUID={745a17a0-74d3-11d0-b6fe-00a0c90f57da}
+Provider=%XBCDP%
 DriverVer= 01/01/2018, 1.2.0
 
-[Manufacturer] 
+[Manufacturer]
 %XBCDP%=DeviceList,NTx86,NTAMD64
 
 ;Windows 2K/XP/Vista x86
@@ -13,121 +13,121 @@ DriverVer= 01/01/2018, 1.2.0
 
 ;Wired Controllers
 ;Xbox Controllers
-%XBCD.DeviceDesc%			=Install,		USB\VID_044F&PID_0F07		; Thrustmaster Controller 
-%XBCD.DeviceDesc%			=Install,		USB\VID_045E&PID_0202		; Microsoft Xbox Controller 
-%XBCD.DeviceDesc%			=Install,		USB\VID_045E&PID_0285		; Microsoft Xbox Controller S 
-%XBCD.DeviceDesc%			=Install,		USB\VID_045E&PID_0287		; Microsoft Xbox Controller S 
-%XBCD.DeviceDesc%			=Install,		USB\VID_045E&PID_0289		; Microsoft Xbox Controller S 
+%XBCD.DeviceDesc%			=Install,		USB\VID_044F&PID_0F07		; Thrustmaster Controller
+%XBCD.DeviceDesc%			=Install,		USB\VID_045E&PID_0202		; Microsoft Xbox Controller
+%XBCD.DeviceDesc%			=Install,		USB\VID_045E&PID_0285		; Microsoft Xbox Controller S
+%XBCD.DeviceDesc%			=Install,		USB\VID_045E&PID_0287		; Microsoft Xbox Controller S
+%XBCD.DeviceDesc%			=Install,		USB\VID_045E&PID_0289		; Microsoft Xbox Controller S
 %XBCD.DeviceDesc%			=Install,		USB\VID_046D&PID_CA84		; Logitech Cordless Precision Controller
 %XBCD.DeviceDesc%			=Install,		USB\VID_046D&PID_CA88		; Logitech Thunderpad Controller
-%XBCD.DeviceDesc%			=Install,		USB\VID_05FD&PID_107A		; InterAct PowerPad Pro Controller 
-%XBCD.DeviceDesc%			=Install,		USB\VID_05FE&PID_3030		; Chic Controller 
-%XBCD.DeviceDesc%			=Install,		USB\VID_05FE&PID_3031		; Chic Controller 
-%XBCD.DeviceDesc%			=Install,		USB\VID_062A&PID_0020		; Logic3 Xbox Controller 
-%XBCD.DeviceDesc%			=Install,		USB\VID_06A3&PID_0201		; Saitek Adrenalin Pad Controller
-%XBCD.DeviceDesc%			=Install,		USB\VID_0738&PID_4506		; Mad Catz 4506 Wireless Controller 
+%XBCD.DeviceDesc%			=Install,		USB\VID_05FD&PID_107A		; InterAct PowerPad Pro Controller
+%XBCD.DeviceDesc%			=Install,		USB\VID_05FE&PID_3030		; Chic Controller
+%XBCD.DeviceDesc%			=Install,		USB\VID_05FE&PID_3031		; Chic Controller
+%XBCD.DeviceDesc%			=Install,		USB\VID_062A&PID_0020		; Logic3 Xbox Controller
+%XBCD.DeviceDesc%			=Install,		USB\VID_06A3&PID_0201		; Saitek Adrenalin Pad
+%XBCD.DeviceDesc%			=Install,		USB\VID_0738&PID_4506		; Mad Catz 4506 Wireless Controller
 %XBCD.DeviceDesc%			=Install,		USB\VID_0738&PID_4516		; Mad Catz 4516 Controller
-%XBCD.DeviceDesc%			=Install,		USB\VID_0738&PID_4520		; Mad Catz Control Pad Pro 
+%XBCD.DeviceDesc%			=Install,		USB\VID_0738&PID_4520		; Mad Catz Control Pad Pro
 %XBCD.DeviceDesc%			=Install,		USB\VID_0738&PID_4526		; Mad Catz 4526 Controller
-%XBCD.DeviceDesc%			=Install,		USB\VID_0738&PID_4536		; Mad Catz Microcon Xbox Controller 
-%XBCD.DeviceDesc%			=Install,		USB\VID_0738&PID_4556		; Mad Catz 4556 Wireless Controller 
-%XBCD.DeviceDesc%			=Install,		USB\VID_0738&PID_4586		; Mad Catz MicroCon Wireless Controller 
+%XBCD.DeviceDesc%			=Install,		USB\VID_0738&PID_4536		; Mad Catz Microcon Xbox Controller
+%XBCD.DeviceDesc%			=Install,		USB\VID_0738&PID_4556		; Mad Catz Lynx Wireless Controller
+%XBCD.DeviceDesc%			=Install,		USB\VID_0738&PID_4586		; Mad Catz MicroCon Wireless Controller
 %XBCD.DeviceDesc%			=Install,		USB\VID_0C12&PID_0005		; Intec Wireless Controller
-%XBCD.DeviceDesc%			=Install,		USB\VID_0C12&PID_8801		; Nyko Xbox Controller 
+%XBCD.DeviceDesc%			=Install,		USB\VID_0C12&PID_8801		; Nyko Xbox Controller
 %XBCD.DeviceDesc%			=Install,		USB\VID_0C12&PID_8802		; Nyko Air Flow Controller
-%XBCD.DeviceDesc%			=Install,		USB\VID_0C12&PID_880A		; Nyko Xbox Controller 
+%XBCD.DeviceDesc%			=Install,		USB\VID_0C12&PID_880A		; Nyko Xbox Controller
 %XBCD.DeviceDesc%			=Install,		USB\VID_0E4C&PID_3510		; Radica Gamester Controller
-%XBCD.DeviceDesc%			=Install,		USB\VID_0E6F&PID_0008		; After Glow Pro Controller 
+%XBCD.DeviceDesc%			=Install,		USB\VID_0E6F&PID_0008		; After Glow Pro Controller
 %XBCD.DeviceDesc%			=Install,		USB\VID_0F30&PID_010B		; Philips Recoil Controller
-%XBCD.DeviceDesc%			=Install,		USB\VID_0F30&PID_0202		; Big Ben XS Xbox Controller 
-%XBCD.DeviceDesc%			=Install,		USB\VID_102C&PID_FF03		; Joytech Wireless Neo S Controller 
-%XBCD.DeviceDesc%			=Install,		USB\VID_FFFF&PID_FFFF		; PowerWave Xbox Controller 
+%XBCD.DeviceDesc%			=Install,		USB\VID_0F30&PID_0202		; Big Ben XS Xbox Controller
+%XBCD.DeviceDesc%			=Install,		USB\VID_102C&PID_FF03		; Joytech Wireless Neo S Controller
+%XBCD.DeviceDesc%			=Install,		USB\VID_FFFF&PID_FFFF		; Unknown Controller
 
 ;Xbox Arcade Sticks
-%XBCD_Arcade.DeviceDesc%		=Install,		USB\VID_0E4C&PID_1103		; Radica Gamester Reflex 
-%XBCD_Arcade.DeviceDesc%		=Install,		USB\VID_0E4C&PID_A103		; Radica Gamester Reflex 
+%XBCD_Arcade.DeviceDesc%		=Install,		USB\VID_0E4C&PID_1103		; Radica Gamester Reflex
+%XBCD_Arcade.DeviceDesc%		=Install,		USB\VID_0E4C&PID_A103		; Radica Gamester Reflex
 
 ;Xbox Steering Wheels
-%XBCD_Wheel.DeviceDesc%		=Install,		USB\VID_044F&PID_0F00		; Thrustmaster Wheel 
-%XBCD_Wheel.DeviceDesc%		=Install,		USB\VID_044F&PID_0F03		; Thrustmaster Wheel 
-%XBCD_Wheel.DeviceDesc%		=Install,		USB\VID_044F&PID_0F10		; Thrustmaster Modena GT 
-%XBCD_Wheel.DeviceDesc%		=Install,		USB\VID_046D&PID_CA8A		; Logitech Precision Vibration Feedback Wheel 
-%XBCD_Wheel.DeviceDesc%		=Install,		USB\VID_062A&PID_0033		; Competition Pro Steering Wheel 
-%XBCD_Wheel.DeviceDesc%		=Install,		USB\VID_06A3&PID_0200		; Saitek Racingwheel 
-%XBCD_Wheel.DeviceDesc%		=Install,		USB\VID_0738&PID_4530		; Mad Catz Universal MC2� Racing Wheel and Pedals 
-%XBCD_Wheel.DeviceDesc%		=Install,		USB\VID_0E8F&PID_0201		; Gamexpert PS2/GC/Xbox Steering Wheel 
-%XBCD_Wheel.DeviceDesc%		=Install,		USB\VID_3767&PID_0101		; Fanatec Speedster 3 Forceshock 
+%XBCD_Wheel.DeviceDesc%		=Install,		USB\VID_044F&PID_0F00		; Thrustmaster Steering Wheel
+%XBCD_Wheel.DeviceDesc%		=Install,		USB\VID_044F&PID_0F03		; Thrustmaster Steering Wheel
+%XBCD_Wheel.DeviceDesc%		=Install,		USB\VID_044F&PID_0F10		; Thrustmaster Modena GT
+%XBCD_Wheel.DeviceDesc%		=Install,		USB\VID_046D&PID_CA8A		; Logitech Precision Vibration Feedback Wheel
+%XBCD_Wheel.DeviceDesc%		=Install,		USB\VID_062A&PID_0033		; Competition Pro Steering Wheel
+%XBCD_Wheel.DeviceDesc%		=Install,		USB\VID_06A3&PID_0200		; Saitek Steering Wheel
+%XBCD_Wheel.DeviceDesc%		=Install,		USB\VID_0738&PID_4530		; Mad Catz MC2 Universal Racing Wheel and Pedals
+%XBCD_Wheel.DeviceDesc%		=Install,		USB\VID_0E8F&PID_0201		; Gamexpert PS2/GC/Xbox Steering Wheel
+%XBCD_Wheel.DeviceDesc%		=Install,		USB\VID_3767&PID_0101		; Fanatec Speedster 3 Forceshock Steering Wheel
 
 ;Xbox Light Guns
 %XBCD_Gun.DeviceDesc%			=Install,		USB\VID_0738&PID_4588		; Mad Catz Blaster Light Gun
 
 ;Foot Pads for Xbox/360
-%XBCD_DDR.DeviceDesc%			=Install,		USB\VID_0738&PID_4540		; Mad Catz Beat Pad (w/ Handle) 
-%XBCD_DDR.DeviceDesc%			=Install,		USB\VID_0738&PID_45FF		; Mad Catz Beat Pad (w/ Handle) 
-%XBCD_DDR.DeviceDesc%			=Install,		USB\VID_0738&PID_4743		; Mad Catz Beat Pad Pro 
-%XBCD_DDR.DeviceDesc%			=Install,		USB\VID_0738&PID_6040		; Mad Catz Beat Pad Pro 
-%XBCD_DDR.DeviceDesc%			=Install,		USB\VID_0C12&PID_8809		; RedOctane Ignition Pad 
-%XBCD_DDR.DeviceDesc%			=Install,		USB\VID_12AB&PID_0004		; Konami DDR Pad 
-%XBCD_DDR.DeviceDesc%			=Install,		USB\VID_12AB&PID_8809		; Konami DDR Pad 
+%XBCD_DDR.DeviceDesc%			=Install,		USB\VID_0738&PID_4540		; Mad Catz Beat Pad (w/ Handle)
+%XBCD_DDR.DeviceDesc%			=Install,		USB\VID_0738&PID_45FF		; Mad Catz Beat Pad (w/ Handle)
+%XBCD_DDR.DeviceDesc%			=Install,		USB\VID_0738&PID_4743		; Mad Catz Beat Pad Pro
+%XBCD_DDR.DeviceDesc%			=Install,		USB\VID_0738&PID_6040		; Mad Catz Beat Pad Pro
+%XBCD_DDR.DeviceDesc%			=Install,		USB\VID_0C12&PID_8809		; RedOctane Ignition Pad
+%XBCD_DDR.DeviceDesc%			=Install,		USB\VID_12AB&PID_0004		; Konami DDR Pad
+%XBCD_DDR.DeviceDesc%			=Install,		USB\VID_12AB&PID_8809		; Konami DDR Pad
 
 ;Xbox 360 Controllers
-%XBCD_360.DeviceDesc%			=Install,		USB\VID_045E&PID_028E		; Microsoft Xbox 360 Controller 
+%XBCD_360.DeviceDesc%			=Install,		USB\VID_045E&PID_028E		; Microsoft Xbox 360 Controller
 %XBCD_360.DeviceDesc%			=Install,		USB\VID_046D&PID_C242		; Logitech Chillstream Controller
-%XBCD_360.DeviceDesc%			=Install,		USB\VID_06A3&PID_F51A		; Saitek P3600 Controller
-%XBCD_360.DeviceDesc%			=Install,		USB\VID_0738&PID_4716		; Mad Catz Xbox 360 Controller 
+%XBCD_360.DeviceDesc%			=Install,		USB\VID_06A3&PID_F51A		; Saitek P3600 Cyborg Force Rumble Pad
+%XBCD_360.DeviceDesc%			=Install,		USB\VID_0738&PID_4716		; Mad Catz Xbox 360 Controller
 %XBCD_360.DeviceDesc%			=Install,		USB\VID_0738&PID_4726		; Mad Catz Pro for Xbox 360 Controller
 %XBCD_360.DeviceDesc%			=Install,		USB\VID_0738&PID_4736		; Mad Catz 360 MicroCon Controller
 %XBCD_360.DeviceDesc%			=Install,		USB\VID_0738&PID_B726		; Mad Catz Modern Warfare 2 Edition Controller
-%XBCD_360.DeviceDesc%			=Install,		USB\VID_0738&PID_BEEF		; Joytech NEO Se Advanced Controller
-%XBCD_360.DeviceDesc%			=Install,		USB\VID_0738&PID_CB02		; Cyborg V.5 Rumble Pad 
-%XBCD_360.DeviceDesc%			=Install,		USB\VID_07FF&PID_FFFF		; Mad Catz GamePad 
-%XBCD_360.DeviceDesc%			=Install,		USB\VID_0E6F&PID_0113		; Afterglow AX.1 Wired Controller 
-%XBCD_360.DeviceDesc%			=Install,		USB\VID_0E6F&PID_0201		; Pelican XSZ Wired Controller (Model #PL-3601) 
-%XBCD_360.DeviceDesc%			=Install,		USB\VID_0E6F&PID_0213		; Afterglow AX.1 Wired Controller 
-%XBCD_360.DeviceDesc%			=Install,		USB\VID_0E6F&PID_0401		; Gamestop Xbox 360 Controller 
-%XBCD_360.DeviceDesc%			=Install,		USB\VID_0F0D&PID_000C		; HORI Pad EX Turbo Controller
-%XBCD_360.DeviceDesc%			=Install,		USB\VID_12AB&PID_0301		; Afterglow AX.1 Wired Controller 
-%XBCD_360.DeviceDesc%			=Install,		USB\VID_1430&PID_F801		; RedOctane Xbox 360 Controller 
-%XBCD_360.DeviceDesc%			=Install,		USB\VID_15E4&PID_3F10		; Power A Batarang Controller 
-%XBCD_360.DeviceDesc%			=Install,		USB\VID_162E&PID_BEEF		; Joytech SE for 360 
-%XBCD_360.DeviceDesc%			=Install,		USB\VID_1689&PID_FD00		; Razer Onza TE 
-%XBCD_360.DeviceDesc%			=Install,		USB\VID_1689&PID_FD01		; Razer Onza SE 
-%XBCD_360.DeviceDesc%			=Install,		USB\VID_1BAD&PID_028E		; Microsoft Xbox 360 Controller 
-%XBCD_360.DeviceDesc%			=Install,		USB\VID_1BAD&PID_F016		; Mad Catz Xbox 360 GamePad 
-%XBCD_360.DeviceDesc%			=Install,		USB\VID_1BAD&PID_F023		; Mad Catz MLG Pro Circuit Controller 
-%XBCD_360.DeviceDesc%			=Install,		USB\VID_1BAD&PID_F02E		; Mad Catz Street Fighter X Tekken FightPad S.D. 
-%XBCD_360.DeviceDesc%			=Install,		USB\VID_1BAD&PID_F501		; HORI Pad EX2 Turbo 
-%XBCD_360.DeviceDesc%			=Install,		USB\VID_1BAD&PID_F900		; Afterglow AX.1 Wired Controller 
-%XBCD_360.DeviceDesc%			=Install,		USB\VID_1BAD&PID_FD00		; Razer Onza TE 
-%XBCD_360.DeviceDesc%			=Install,		USB\VID_1BAD&PID_FD01		; Razer Onza SE 
-%XBCD_360.DeviceDesc%			=Install,		USB\VID_24C6&PID_5300		; Power A Mini Pro EX Controller 
+%XBCD_360.DeviceDesc%			=Install,		USB\VID_0738&PID_BEEF		; Joytech Neo Se Advanced Controller
+%XBCD_360.DeviceDesc%			=Install,		USB\VID_0738&PID_CB02		; Cyborg V.5 Rumble Pad
+%XBCD_360.DeviceDesc%			=Install,		USB\VID_07FF&PID_FFFF		; Mad Catz GamePad
+%XBCD_360.DeviceDesc%			=Install,		USB\VID_0E6F&PID_0113		; Afterglow AX.1 Wired Controller
+%XBCD_360.DeviceDesc%			=Install,		USB\VID_0E6F&PID_0201		; Pelican XSZ Wired Controller (Model #PL-3601)
+%XBCD_360.DeviceDesc%			=Install,		USB\VID_0E6F&PID_0213		; Afterglow AX.1 Wired Controller
+%XBCD_360.DeviceDesc%			=Install,		USB\VID_0E6F&PID_0401		; Gamestop Xbox 360 Controller
+%XBCD_360.DeviceDesc%			=Install,		USB\VID_0F0D&PID_000C		; HORI Pad EX Turbo
+%XBCD_360.DeviceDesc%			=Install,		USB\VID_12AB&PID_0301		; Afterglow AX.1 Wired Controller
+%XBCD_360.DeviceDesc%			=Install,		USB\VID_1430&PID_F801		; RedOctane Xbox 360 Controller
+%XBCD_360.DeviceDesc%			=Install,		USB\VID_15E4&PID_3F10		; Power A Batarang Controller
+%XBCD_360.DeviceDesc%			=Install,		USB\VID_162E&PID_BEEF		; Joytech SE for 360 Controller
+%XBCD_360.DeviceDesc%			=Install,		USB\VID_1689&PID_FD00		; Razer Onza TE Controller
+%XBCD_360.DeviceDesc%			=Install,		USB\VID_1689&PID_FD01		; Razer Onza SE Controller
+%XBCD_360.DeviceDesc%			=Install,		USB\VID_1BAD&PID_028E		; Microsoft Xbox 360 Controller
+%XBCD_360.DeviceDesc%			=Install,		USB\VID_1BAD&PID_F016		; Mad Catz Xbox 360 GamePad
+%XBCD_360.DeviceDesc%			=Install,		USB\VID_1BAD&PID_F023		; Mad Catz MLG Pro Circuit Controller
+%XBCD_360.DeviceDesc%			=Install,		USB\VID_1BAD&PID_F02E		; Mad Catz Street Fighter X Tekken FightPad SD
+%XBCD_360.DeviceDesc%			=Install,		USB\VID_1BAD&PID_F501		; HORI Pad EX2 Turbo
+%XBCD_360.DeviceDesc%			=Install,		USB\VID_1BAD&PID_F900		; Afterglow AX.1 Wired Controller
+%XBCD_360.DeviceDesc%			=Install,		USB\VID_1BAD&PID_FD00		; Razer Onza TE Controller
+%XBCD_360.DeviceDesc%			=Install,		USB\VID_1BAD&PID_FD01		; Razer Onza SE Controller
+%XBCD_360.DeviceDesc%			=Install,		USB\VID_24C6&PID_5300		; Power A Mini Pro EX Controller
 
 ;Xbox 360 Arcade Sticks
-%XBCD_360_Arcade.DeviceDesc%		=Install,		USB\VID_0738&PID_4718		; Mad Catz Street Fighter IV Fightstick 
+%XBCD_360_Arcade.DeviceDesc%		=Install,		USB\VID_0738&PID_4718		; Mad Catz Street Fighter IV Fightstick SE
 %XBCD_360_Arcade.DeviceDesc%		=Install,		USB\VID_0738&PID_4728		; Mad Catz Street Fighter IV Fightstick
-%XBCD_360_Arcade.DeviceDesc%		=Install,		USB\VID_0738&PID_4738		; Mad Catz Arcade Gamestick (Street Fighter IV Fightstick TE) 
-%XBCD_360_Arcade.DeviceDesc%		=Install,		USB\VID_0738&PID_B738		; Mad Catz Arcade Fightstick TE 
-%XBCD_360_Arcade.DeviceDesc%		=Install,		USB\VID_0F0D&PID_000A		; HORI DOA4 Arcade Stick 
-%XBCD_360_Arcade.DeviceDesc%		=Install,		USB\VID_0F0D&PID_000D		; HORI EX2 Fighting Stick 
+%XBCD_360_Arcade.DeviceDesc%		=Install,		USB\VID_0738&PID_4738		; Mad Catz Street Fighter IV Fightstick TE
+%XBCD_360_Arcade.DeviceDesc%		=Install,		USB\VID_0738&PID_B738		; Mad Catz Arcade Fightstick TE
+%XBCD_360_Arcade.DeviceDesc%		=Install,		USB\VID_0F0D&PID_000A		; HORI DOA4 Arcade Stick
+%XBCD_360_Arcade.DeviceDesc%		=Install,		USB\VID_0F0D&PID_000D		; HORI EX2 Arcade Stick
 %XBCD_360_Arcade.DeviceDesc%		=Install,		USB\VID_0F0D&PID_0016		; Hori Real Arcade Pro EX-SE Arcade Stick
-%XBCD_360_Arcade.DeviceDesc%		=Install,		USB\VID_1BAD&PID_F03E		; Mad Catz MLG Arcade Fightstick TE 
+%XBCD_360_Arcade.DeviceDesc%		=Install,		USB\VID_1BAD&PID_F03E		; Mad Catz MLG Arcade Fightstick TE
 %XBCD_360_Arcade.DeviceDesc%		=Install,		USB\VID_1BAD&PID_F502		; Hori Real Arcade Pro VX SA Arcade Stick
 
 ;Xbox 360 Steering Wheels
-%XBCD_360_Wheel.DeviceDesc%		=Install,		USB\VID_046D&PID_CAA3		; Logitech DriveFX Wheel 
-%XBCD_360_Wheel.DeviceDesc%		=Install,		USB\VID_1BAD&PID_F030		; Mad Catz Xbox 360 MC2 MicroCon Racing Wheel 
+%XBCD_360_Wheel.DeviceDesc%		=Install,		USB\VID_046D&PID_CAA3		; Logitech DriveFX Wheel
+%XBCD_360_Wheel.DeviceDesc%		=Install,		USB\VID_1BAD&PID_F030		; Mad Catz MC2 MicroCon Racing Wheel & Pedals
 
 ;Foot Pads for Xbox 360
-%XBCD_360_DDR.DeviceDesc%		=Install,		USB\VID_0738&PID_4740		; Mad Catz Beat Pad 360 
+%XBCD_360_DDR.DeviceDesc%		=Install,		USB\VID_0738&PID_4740		; Mad Catz Beat Pad 360
 
 ;Xbox 360 Guitar Controller
-%XBCD_360_Guitar.DeviceDesc%		=Install, 		USB\VID_1430&PID_4748 		; RedOctane X-plorer Guitar 
+%XBCD_360_Guitar.DeviceDesc%		=Install, 		USB\VID_1430&PID_4748 		; RedOctane X-plorer Guitar
 
 ; Currently unsupported
 ; ------------------------------------
 ;Wireless Controllers
 ;Wireless Xbox360 Controllers
-;%XBCD_Wireless_360.DeviceDesc% 	=Install,		USB\VID_045E&PID_0719		; Microsoft Xbox 360 Wireless Controller 
+;%XBCD_Wireless_360.DeviceDesc% 	=Install,		USB\VID_045E&PID_0719		; Microsoft Xbox 360 Wireless Controller
 
 
 ;Windows XP64/Vista x64
@@ -135,176 +135,176 @@ DriverVer= 01/01/2018, 1.2.0
 
 ;Wired Controllers
 ;Xbox Controllers
-%XBCD.DeviceDesc%			=Install,		USB\VID_044F&PID_0F07		; Thrustmaster Controller 
-%XBCD.DeviceDesc%			=Install,		USB\VID_045E&PID_0202		; Microsoft Xbox Controller 
-%XBCD.DeviceDesc%			=Install,		USB\VID_045E&PID_0285		; Microsoft Xbox Controller S 
-%XBCD.DeviceDesc%			=Install,		USB\VID_045E&PID_0287		; Microsoft Xbox Controller S 
-%XBCD.DeviceDesc%			=Install,		USB\VID_045E&PID_0289		; Microsoft Xbox Controller S 
+%XBCD.DeviceDesc%			=Install,		USB\VID_044F&PID_0F07		; Thrustmaster Controller
+%XBCD.DeviceDesc%			=Install,		USB\VID_045E&PID_0202		; Microsoft Xbox Controller
+%XBCD.DeviceDesc%			=Install,		USB\VID_045E&PID_0285		; Microsoft Xbox Controller S
+%XBCD.DeviceDesc%			=Install,		USB\VID_045E&PID_0287		; Microsoft Xbox Controller S
+%XBCD.DeviceDesc%			=Install,		USB\VID_045E&PID_0289		; Microsoft Xbox Controller S
 %XBCD.DeviceDesc%			=Install,		USB\VID_046D&PID_CA84		; Logitech Cordless Precision Controller
 %XBCD.DeviceDesc%			=Install,		USB\VID_046D&PID_CA88		; Logitech Thunderpad Controller
-%XBCD.DeviceDesc%			=Install,		USB\VID_05FD&PID_107A		; InterAct PowerPad Pro Controller 
-%XBCD.DeviceDesc%			=Install,		USB\VID_05FE&PID_3030		; Chic Controller 
-%XBCD.DeviceDesc%			=Install,		USB\VID_05FE&PID_3031		; Chic Controller 
-%XBCD.DeviceDesc%			=Install,		USB\VID_062A&PID_0020		; Logic3 Xbox Controller 
-%XBCD.DeviceDesc%			=Install,		USB\VID_06A3&PID_0201		; Saitek Adrenalin Pad Controller
-%XBCD.DeviceDesc%			=Install,		USB\VID_0738&PID_4506		; Mad Catz 4506 Wireless Controller 
+%XBCD.DeviceDesc%			=Install,		USB\VID_05FD&PID_107A		; InterAct PowerPad Pro Controller
+%XBCD.DeviceDesc%			=Install,		USB\VID_05FE&PID_3030		; Chic Controller
+%XBCD.DeviceDesc%			=Install,		USB\VID_05FE&PID_3031		; Chic Controller
+%XBCD.DeviceDesc%			=Install,		USB\VID_062A&PID_0020		; Logic3 Xbox Controller
+%XBCD.DeviceDesc%			=Install,		USB\VID_06A3&PID_0201		; Saitek Adrenalin Pad
+%XBCD.DeviceDesc%			=Install,		USB\VID_0738&PID_4506		; Mad Catz 4506 Wireless Controller
 %XBCD.DeviceDesc%			=Install,		USB\VID_0738&PID_4516		; Mad Catz 4516 Controller
-%XBCD.DeviceDesc%			=Install,		USB\VID_0738&PID_4520		; Mad Catz Control Pad Pro 
+%XBCD.DeviceDesc%			=Install,		USB\VID_0738&PID_4520		; Mad Catz Control Pad Pro
 %XBCD.DeviceDesc%			=Install,		USB\VID_0738&PID_4526		; Mad Catz 4526 Controller
-%XBCD.DeviceDesc%			=Install,		USB\VID_0738&PID_4536		; Mad Catz Microcon Xbox Controller 
-%XBCD.DeviceDesc%			=Install,		USB\VID_0738&PID_4556		; Mad Catz 4556 Wireless Controller 
-%XBCD.DeviceDesc%			=Install,		USB\VID_0738&PID_4586		; Mad Catz MicroCon Wireless Controller 
+%XBCD.DeviceDesc%			=Install,		USB\VID_0738&PID_4536		; Mad Catz Microcon Xbox Controller
+%XBCD.DeviceDesc%			=Install,		USB\VID_0738&PID_4556		; Mad Catz Lynx Wireless Controller
+%XBCD.DeviceDesc%			=Install,		USB\VID_0738&PID_4586		; Mad Catz MicroCon Wireless Controller
 %XBCD.DeviceDesc%			=Install,		USB\VID_0C12&PID_0005		; Intec Wireless Controller
-%XBCD.DeviceDesc%			=Install,		USB\VID_0C12&PID_8801		; Nyko Xbox Controller 
+%XBCD.DeviceDesc%			=Install,		USB\VID_0C12&PID_8801		; Nyko Xbox Controller
 %XBCD.DeviceDesc%			=Install,		USB\VID_0C12&PID_8802		; Nyko Air Flow Controller
-%XBCD.DeviceDesc%			=Install,		USB\VID_0C12&PID_880A		; Nyko Xbox Controller 
+%XBCD.DeviceDesc%			=Install,		USB\VID_0C12&PID_880A		; Nyko Xbox Controller
 %XBCD.DeviceDesc%			=Install,		USB\VID_0E4C&PID_3510		; Radica Gamester Controller
-%XBCD.DeviceDesc%			=Install,		USB\VID_0E6F&PID_0008		; After Glow Pro Controller 
+%XBCD.DeviceDesc%			=Install,		USB\VID_0E6F&PID_0008		; After Glow Pro Controller
 %XBCD.DeviceDesc%			=Install,		USB\VID_0F30&PID_010B		; Philips Recoil Controller
-%XBCD.DeviceDesc%			=Install,		USB\VID_0F30&PID_0202		; Big Ben XS Xbox Controller 
-%XBCD.DeviceDesc%			=Install,		USB\VID_102C&PID_FF03		; Joytech Wireless Neo S Controller 
-%XBCD.DeviceDesc%			=Install,		USB\VID_FFFF&PID_FFFF		; PowerWave Xbox Controller 
+%XBCD.DeviceDesc%			=Install,		USB\VID_0F30&PID_0202		; Big Ben XS Xbox Controller
+%XBCD.DeviceDesc%			=Install,		USB\VID_102C&PID_FF03		; Joytech Wireless Neo S Controller
+%XBCD.DeviceDesc%			=Install,		USB\VID_FFFF&PID_FFFF		; Unknown Controller
 
 ;Xbox Arcade Sticks
-%XBCD_Arcade.DeviceDesc%		=Install,		USB\VID_0E4C&PID_1103		; Radica Gamester Reflex 
-%XBCD_Arcade.DeviceDesc%		=Install,		USB\VID_0E4C&PID_A103		; Radica Gamester Reflex 
+%XBCD_Arcade.DeviceDesc%		=Install,		USB\VID_0E4C&PID_1103		; Radica Gamester Reflex
+%XBCD_Arcade.DeviceDesc%		=Install,		USB\VID_0E4C&PID_A103		; Radica Gamester Reflex
 
 ;Xbox Steering Wheels
-%XBCD_Wheel.DeviceDesc%		=Install,		USB\VID_044F&PID_0F00		; Thrustmaster Wheel 
-%XBCD_Wheel.DeviceDesc%		=Install,		USB\VID_044F&PID_0F03		; Thrustmaster Wheel 
-%XBCD_Wheel.DeviceDesc%		=Install,		USB\VID_044F&PID_0F10		; Thrustmaster Modena GT 
-%XBCD_Wheel.DeviceDesc%		=Install,		USB\VID_046D&PID_CA8A		; Logitech Precision Vibration Feedback Wheel 
-%XBCD_Wheel.DeviceDesc%		=Install,		USB\VID_062A&PID_0033		; Competition Pro Steering Wheel 
-%XBCD_Wheel.DeviceDesc%		=Install,		USB\VID_06A3&PID_0200		; Saitek Racingwheel 
-%XBCD_Wheel.DeviceDesc%		=Install,		USB\VID_0738&PID_4530		; Mad Catz Universal MC2� Racing Wheel and Pedals 
-%XBCD_Wheel.DeviceDesc%		=Install,		USB\VID_0E8F&PID_0201		; Gamexpert PS2/GC/Xbox Steering Wheel 
-%XBCD_Wheel.DeviceDesc%		=Install,		USB\VID_3767&PID_0101		; Fanatec Speedster 3 Forceshock 
+%XBCD_Wheel.DeviceDesc%		=Install,		USB\VID_044F&PID_0F00		; Thrustmaster Steering Wheel
+%XBCD_Wheel.DeviceDesc%		=Install,		USB\VID_044F&PID_0F03		; Thrustmaster Steering Wheel
+%XBCD_Wheel.DeviceDesc%		=Install,		USB\VID_044F&PID_0F10		; Thrustmaster Modena GT
+%XBCD_Wheel.DeviceDesc%		=Install,		USB\VID_046D&PID_CA8A		; Logitech Precision Vibration Feedback Wheel
+%XBCD_Wheel.DeviceDesc%		=Install,		USB\VID_062A&PID_0033		; Competition Pro Steering Wheel
+%XBCD_Wheel.DeviceDesc%		=Install,		USB\VID_06A3&PID_0200		; Saitek Steering Wheel
+%XBCD_Wheel.DeviceDesc%		=Install,		USB\VID_0738&PID_4530		; Mad Catz MC2 Universal Racing Wheel and Pedals
+%XBCD_Wheel.DeviceDesc%		=Install,		USB\VID_0E8F&PID_0201		; Gamexpert PS2/GC/Xbox Steering Wheel
+%XBCD_Wheel.DeviceDesc%		=Install,		USB\VID_3767&PID_0101		; Fanatec Speedster 3 Forceshock Steering Wheel
 
 ;Xbox Light Guns
 %XBCD_Gun.DeviceDesc%			=Install,		USB\VID_0738&PID_4588		; Mad Catz Blaster Light Gun
 
 ;Foot Pads for Xbox/360
-%XBCD_DDR.DeviceDesc%			=Install,		USB\VID_0738&PID_4540		; Mad Catz Beat Pad (w/ Handle) 
-%XBCD_DDR.DeviceDesc%			=Install,		USB\VID_0738&PID_45FF		; Mad Catz Beat Pad (w/ Handle) 
-%XBCD_DDR.DeviceDesc%			=Install,		USB\VID_0738&PID_4743		; Mad Catz Beat Pad Pro 
-%XBCD_DDR.DeviceDesc%			=Install,		USB\VID_0738&PID_6040		; Mad Catz Beat Pad Pro 
-%XBCD_DDR.DeviceDesc%			=Install,		USB\VID_0C12&PID_8809		; RedOctane Ignition Pad 
-%XBCD_DDR.DeviceDesc%			=Install,		USB\VID_12AB&PID_0004		; Konami DDR Pad 
-%XBCD_DDR.DeviceDesc%			=Install,		USB\VID_12AB&PID_8809		; Konami DDR Pad 
+%XBCD_DDR.DeviceDesc%			=Install,		USB\VID_0738&PID_4540		; Mad Catz Beat Pad (w/ Handle)
+%XBCD_DDR.DeviceDesc%			=Install,		USB\VID_0738&PID_45FF		; Mad Catz Beat Pad (w/ Handle)
+%XBCD_DDR.DeviceDesc%			=Install,		USB\VID_0738&PID_4743		; Mad Catz Beat Pad Pro
+%XBCD_DDR.DeviceDesc%			=Install,		USB\VID_0738&PID_6040		; Mad Catz Beat Pad Pro
+%XBCD_DDR.DeviceDesc%			=Install,		USB\VID_0C12&PID_8809		; RedOctane Ignition Pad
+%XBCD_DDR.DeviceDesc%			=Install,		USB\VID_12AB&PID_0004		; Konami DDR Pad
+%XBCD_DDR.DeviceDesc%			=Install,		USB\VID_12AB&PID_8809		; Konami DDR Pad
 
 ;Xbox 360 Controllers
-%XBCD_360.DeviceDesc%			=Install,		USB\VID_045E&PID_028E		; Microsoft Xbox 360 Controller 
+%XBCD_360.DeviceDesc%			=Install,		USB\VID_045E&PID_028E		; Microsoft Xbox 360 Controller
 %XBCD_360.DeviceDesc%			=Install,		USB\VID_046D&PID_C242		; Logitech Chillstream Controller
-%XBCD_360.DeviceDesc%			=Install,		USB\VID_06A3&PID_F51A		; Saitek P3600 Controller
-%XBCD_360.DeviceDesc%			=Install,		USB\VID_0738&PID_4716		; Mad Catz Xbox 360 Controller 
+%XBCD_360.DeviceDesc%			=Install,		USB\VID_06A3&PID_F51A		; Saitek P3600 Cyborg Force Rumble Pad
+%XBCD_360.DeviceDesc%			=Install,		USB\VID_0738&PID_4716		; Mad Catz Xbox 360 Controller
 %XBCD_360.DeviceDesc%			=Install,		USB\VID_0738&PID_4726		; Mad Catz Pro for Xbox 360 Controller
 %XBCD_360.DeviceDesc%			=Install,		USB\VID_0738&PID_4736		; Mad Catz 360 MicroCon Controller
 %XBCD_360.DeviceDesc%			=Install,		USB\VID_0738&PID_B726		; Mad Catz Modern Warfare 2 Edition Controller
-%XBCD_360.DeviceDesc%			=Install,		USB\VID_0738&PID_BEEF		; Joytech NEO Se Advanced Controller
-%XBCD_360.DeviceDesc%			=Install,		USB\VID_0738&PID_CB02		; Cyborg V.5 Rumble Pad 
-%XBCD_360.DeviceDesc%			=Install,		USB\VID_07FF&PID_FFFF		; Mad Catz GamePad 
-%XBCD_360.DeviceDesc%			=Install,		USB\VID_0E6F&PID_0113		; Afterglow AX.1 Wired Controller 
-%XBCD_360.DeviceDesc%			=Install,		USB\VID_0E6F&PID_0201		; Pelican XSZ Wired Controller (Model #PL-3601) 
-%XBCD_360.DeviceDesc%			=Install,		USB\VID_0E6F&PID_0213		; Afterglow AX.1 Wired Controller 
-%XBCD_360.DeviceDesc%			=Install,		USB\VID_0E6F&PID_0401		; Gamestop Xbox 360 Controller 
-%XBCD_360.DeviceDesc%			=Install,		USB\VID_0F0D&PID_000C		; HORI Pad EX Turbo Controller
-%XBCD_360.DeviceDesc%			=Install,		USB\VID_12AB&PID_0301		; Afterglow AX.1 Wired Controller 
-%XBCD_360.DeviceDesc%			=Install,		USB\VID_1430&PID_F801		; RedOctane Xbox 360 Controller 
-%XBCD_360.DeviceDesc%			=Install,		USB\VID_15E4&PID_3F10		; Power A Batarang Controller 
-%XBCD_360.DeviceDesc%			=Install,		USB\VID_162E&PID_BEEF		; Joytech SE for 360 
-%XBCD_360.DeviceDesc%			=Install,		USB\VID_1689&PID_FD00		; Razer Onza TE 
-%XBCD_360.DeviceDesc%			=Install,		USB\VID_1689&PID_FD01		; Razer Onza SE 
-%XBCD_360.DeviceDesc%			=Install,		USB\VID_1BAD&PID_028E		; Microsoft Xbox 360 Controller 
-%XBCD_360.DeviceDesc%			=Install,		USB\VID_1BAD&PID_F016		; Mad Catz Xbox 360 GamePad 
-%XBCD_360.DeviceDesc%			=Install,		USB\VID_1BAD&PID_F023		; Mad Catz MLG Pro Circuit Controller 
-%XBCD_360.DeviceDesc%			=Install,		USB\VID_1BAD&PID_F02E		; Mad Catz Street Fighter X Tekken FightPad S.D. 
-%XBCD_360.DeviceDesc%			=Install,		USB\VID_1BAD&PID_F501		; HORI Pad EX2 Turbo 
-%XBCD_360.DeviceDesc%			=Install,		USB\VID_1BAD&PID_F900		; Afterglow AX.1 Wired Controller 
-%XBCD_360.DeviceDesc%			=Install,		USB\VID_1BAD&PID_FD00		; Razer Onza TE 
-%XBCD_360.DeviceDesc%			=Install,		USB\VID_1BAD&PID_FD01		; Razer Onza SE 
-%XBCD_360.DeviceDesc%			=Install,		USB\VID_24C6&PID_5300		; Power A Mini Pro EX Controller 
+%XBCD_360.DeviceDesc%			=Install,		USB\VID_0738&PID_BEEF		; Joytech Neo Se Advanced Controller
+%XBCD_360.DeviceDesc%			=Install,		USB\VID_0738&PID_CB02		; Cyborg V.5 Rumble Pad
+%XBCD_360.DeviceDesc%			=Install,		USB\VID_07FF&PID_FFFF		; Mad Catz GamePad
+%XBCD_360.DeviceDesc%			=Install,		USB\VID_0E6F&PID_0113		; Afterglow AX.1 Wired Controller
+%XBCD_360.DeviceDesc%			=Install,		USB\VID_0E6F&PID_0201		; Pelican XSZ Wired Controller (Model #PL-3601)
+%XBCD_360.DeviceDesc%			=Install,		USB\VID_0E6F&PID_0213		; Afterglow AX.1 Wired Controller
+%XBCD_360.DeviceDesc%			=Install,		USB\VID_0E6F&PID_0401		; Gamestop Xbox 360 Controller
+%XBCD_360.DeviceDesc%			=Install,		USB\VID_0F0D&PID_000C		; HORI Pad EX Turbo
+%XBCD_360.DeviceDesc%			=Install,		USB\VID_12AB&PID_0301		; Afterglow AX.1 Wired Controller
+%XBCD_360.DeviceDesc%			=Install,		USB\VID_1430&PID_F801		; RedOctane Xbox 360 Controller
+%XBCD_360.DeviceDesc%			=Install,		USB\VID_15E4&PID_3F10		; Power A Batarang Controller
+%XBCD_360.DeviceDesc%			=Install,		USB\VID_162E&PID_BEEF		; Joytech SE for 360 Controller
+%XBCD_360.DeviceDesc%			=Install,		USB\VID_1689&PID_FD00		; Razer Onza TE Controller
+%XBCD_360.DeviceDesc%			=Install,		USB\VID_1689&PID_FD01		; Razer Onza SE Controller
+%XBCD_360.DeviceDesc%			=Install,		USB\VID_1BAD&PID_028E		; Microsoft Xbox 360 Controller
+%XBCD_360.DeviceDesc%			=Install,		USB\VID_1BAD&PID_F016		; Mad Catz Xbox 360 GamePad
+%XBCD_360.DeviceDesc%			=Install,		USB\VID_1BAD&PID_F023		; Mad Catz MLG Pro Circuit Controller
+%XBCD_360.DeviceDesc%			=Install,		USB\VID_1BAD&PID_F02E		; Mad Catz Street Fighter X Tekken FightPad SD
+%XBCD_360.DeviceDesc%			=Install,		USB\VID_1BAD&PID_F501		; HORI Pad EX2 Turbo
+%XBCD_360.DeviceDesc%			=Install,		USB\VID_1BAD&PID_F900		; Afterglow AX.1 Wired Controller
+%XBCD_360.DeviceDesc%			=Install,		USB\VID_1BAD&PID_FD00		; Razer Onza TE Controller
+%XBCD_360.DeviceDesc%			=Install,		USB\VID_1BAD&PID_FD01		; Razer Onza SE Controller
+%XBCD_360.DeviceDesc%			=Install,		USB\VID_24C6&PID_5300		; Power A Mini Pro EX Controller
 
 ;Xbox 360 Arcade Sticks
-%XBCD_360_Arcade.DeviceDesc%		=Install,		USB\VID_0738&PID_4718		; Mad Catz Street Fighter IV Fightstick 
+%XBCD_360_Arcade.DeviceDesc%		=Install,		USB\VID_0738&PID_4718		; Mad Catz Street Fighter IV Fightstick SE
 %XBCD_360_Arcade.DeviceDesc%		=Install,		USB\VID_0738&PID_4728		; Mad Catz Street Fighter IV Fightstick
-%XBCD_360_Arcade.DeviceDesc%		=Install,		USB\VID_0738&PID_4738		; Mad Catz Arcade Gamestick (Street Fighter IV Fightstick TE) 
-%XBCD_360_Arcade.DeviceDesc%		=Install,		USB\VID_0738&PID_B738		; Mad Catz Arcade Fightstick TE 
-%XBCD_360_Arcade.DeviceDesc%		=Install,		USB\VID_0F0D&PID_000A		; HORI DOA4 Arcade Stick 
-%XBCD_360_Arcade.DeviceDesc%		=Install,		USB\VID_0F0D&PID_000D		; HORI EX2 Fighting Stick 
+%XBCD_360_Arcade.DeviceDesc%		=Install,		USB\VID_0738&PID_4738		; Mad Catz Street Fighter IV Fightstick TE
+%XBCD_360_Arcade.DeviceDesc%		=Install,		USB\VID_0738&PID_B738		; Mad Catz Arcade Fightstick TE
+%XBCD_360_Arcade.DeviceDesc%		=Install,		USB\VID_0F0D&PID_000A		; HORI DOA4 Arcade Stick
+%XBCD_360_Arcade.DeviceDesc%		=Install,		USB\VID_0F0D&PID_000D		; HORI EX2 Arcade Stick
 %XBCD_360_Arcade.DeviceDesc%		=Install,		USB\VID_0F0D&PID_0016		; Hori Real Arcade Pro EX-SE Arcade Stick
-%XBCD_360_Arcade.DeviceDesc%		=Install,		USB\VID_1BAD&PID_F03E		; Mad Catz MLG Arcade Fightstick TE 
+%XBCD_360_Arcade.DeviceDesc%		=Install,		USB\VID_1BAD&PID_F03E		; Mad Catz MLG Arcade Fightstick TE
 %XBCD_360_Arcade.DeviceDesc%		=Install,		USB\VID_1BAD&PID_F502		; Hori Real Arcade Pro VX SA Arcade Stick
 
 ;Xbox 360 Steering Wheels
-%XBCD_360_Wheel.DeviceDesc%		=Install,		USB\VID_046D&PID_CAA3		; Logitech DriveFX Wheel 
-%XBCD_360_Wheel.DeviceDesc%		=Install,		USB\VID_1BAD&PID_F030		; Mad Catz Xbox 360 MC2 MicroCon Racing Wheel 
+%XBCD_360_Wheel.DeviceDesc%		=Install,		USB\VID_046D&PID_CAA3		; Logitech DriveFX Wheel
+%XBCD_360_Wheel.DeviceDesc%		=Install,		USB\VID_1BAD&PID_F030		; Mad Catz MC2 MicroCon Racing Wheel and Pedals
 
 ;Foot Pads for Xbox 360
-%XBCD_360_DDR.DeviceDesc%		=Install,		USB\VID_0738&PID_4740		; Mad Catz Beat Pad 360 
+%XBCD_360_DDR.DeviceDesc%		=Install,		USB\VID_0738&PID_4740		; Mad Catz Beat Pad 360
 
 ;Xbox 360 Guitar Controller
-%XBCD_360_Guitar.DeviceDesc%		=Install, 		USB\VID_1430&PID_4748 		; RedOctane X-plorer Guitar 
+%XBCD_360_Guitar.DeviceDesc%		=Install, 		USB\VID_1430&PID_4748 		; RedOctane X-plorer Guitar
 
 ; Currently unsupported
 ; ------------------------------------
 ;Wireless Controllers
 ;Wireless Xbox360 Controllers
-;%XBCD_Wireless_360.DeviceDesc%	=Install,		USB\VID_045E&PID_0719		; Microsoft Xbox 360 Wireless Controller 
+;%XBCD_Wireless_360.DeviceDesc%	=Install,		USB\VID_045E&PID_0719		; Microsoft Xbox 360 Wireless Controller
 
 ; Defining XBCD Service
 ; ---------------------------
-[Install.Services] 
-AddService = XBCD, 0x00000002, XBCD_Service, 
+[Install.Services]
+AddService = XBCD, 0x00000002, XBCD_Service,
 
-[XBCD_Service] 
-DisplayName    = %Service_Description% 
-ServiceType = %SERVICE_KERNEL_DRIVER% 
-StartType = %SERVICE_DEMAND_START% 
-ErrorControl = %SERVICE_ERROR_NORMAL% 
-ServiceBinary = %12%\XBCD.sys 
+[XBCD_Service]
+DisplayName    = %Service_Description%
+ServiceType = %SERVICE_KERNEL_DRIVER%
+StartType = %SERVICE_DEMAND_START%
+ErrorControl = %SERVICE_ERROR_NORMAL%
+ServiceBinary = %12%\XBCD.sys
 
 ; Event Logger Information
 ; -----------------------
-[XBCD.EventLog] 
-AddReg = XBCD.EventLog.AddReg 
- 
-[XBCD.EventLog.AddReg] 
-HKR,,EventMessageFile,%REG_EXPAND_SZ%,"%%SystemRoot%%\System32\IoLogMsg.dll" 
+[XBCD.EventLog]
+AddReg = XBCD.EventLog.AddReg
+
+[XBCD.EventLog.AddReg]
+HKR,,EventMessageFile,%REG_EXPAND_SZ%,"%%SystemRoot%%\System32\IoLogMsg.dll"
 HKR,,TypesSupported,%REG_DWORD%,7
 
 [Uninstall]
 DelService = XBCD,0x00000002,XBCD_Service,
 DelReg = XBCD.EventLog.AddReg
 
-[Strings] 
+[Strings]
 
-;  *******Localizable Strings******* 
-XBCDP= "XBCD Project" 
-XBCD.DeviceDesc= "XBCD Xbox Controller" 
-XBCD_Arcade.DeviceDesc= "XBCD Xbox Arcade Stick" 
-XBCD_DDR.DeviceDesc= "XBCD Xbox Foot Pad" 
-XBCD_Gun.DeviceDesc= "XBCD Xbox Light Gun" 
+;  *******Localizable Strings*******
+XBCDP= "XBCD Project"
+XBCD.DeviceDesc= "XBCD Xbox Controller"
+XBCD_Arcade.DeviceDesc= "XBCD Xbox Arcade Stick"
+XBCD_DDR.DeviceDesc= "XBCD Xbox Foot Pad"
+XBCD_Gun.DeviceDesc= "XBCD Xbox Light Gun"
 XBCD_Wheel.DeviceDesc= "XBCD Xbox Steering Wheel"
-XBCD_360.DeviceDesc= "XBCD Xbox 360 Controller" 
-XBCD_360_Arcade.DeviceDesc= "XBCD Xbox 360 Arcade Stick" 
+XBCD_360.DeviceDesc= "XBCD Xbox 360 Controller"
+XBCD_360_Arcade.DeviceDesc= "XBCD Xbox 360 Arcade Stick"
 XBCD_360_Wheel.DeviceDesc= "XBCD Xbox 360 Steering Wheel"
 XBCD_360_DDR.DeviceDesc= "XBCD Xbox 360 Foot Pad"
 XBCD_360_Guitar.DeviceDesc= "XBCD Xbox 360 Guitar"
-;XBCD_Wireless_360.DeviceDesc= "XBCD Wireless Xbox 360 Controller" 
+;XBCD_Wireless_360.DeviceDesc= "XBCD Wireless Xbox 360 Controller"
 Service_Description="XBCD Kernel Module"
-;  *******Non Localizable Strings******* 
+;  *******Non Localizable Strings*******
 
-SERVICE_BOOT_START = 0x0 
-SERVICE_SYSTEM_START = 0x1 
-SERVICE_AUTO_START = 0x2 
-SERVICE_DEMAND_START = 0x3 
-SERVICE_DISABLED = 0x4 
+SERVICE_BOOT_START = 0x0
+SERVICE_SYSTEM_START = 0x1
+SERVICE_AUTO_START = 0x2
+SERVICE_DEMAND_START = 0x3
+SERVICE_DISABLED = 0x4
 
-SERVICE_KERNEL_DRIVER = 0x1 
-SERVICE_ERROR_IGNORE = 0x0 
-SERVICE_ERROR_NORMAL = 0x1 
-SERVICE_ERROR_SEVERE = 0x2 
-SERVICE_ERROR_CRITICAL = 0x3 
+SERVICE_KERNEL_DRIVER = 0x1
+SERVICE_ERROR_IGNORE = 0x0
+SERVICE_ERROR_NORMAL = 0x1
+SERVICE_ERROR_SEVERE = 0x2
+SERVICE_ERROR_CRITICAL = 0x3
 
-REG_EXPAND_SZ = 0x00020000 
-REG_DWORD = 0x00010001 
+REG_EXPAND_SZ = 0x00020000
+REG_DWORD = 0x00010001
