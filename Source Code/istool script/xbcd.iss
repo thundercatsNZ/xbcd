@@ -8,9 +8,9 @@ AppVerName=XBCD Setup v1.2.0
 AppPublisher=XBCD Project
 DefaultDirName={pf32}\XBCD\
 AllowNoIcons=false
-OutputDir=D:\Projects\XBCD\XBCD Installer\
-OutputBaseFilename=XBCD_Installer_0.2.7
-SetupIconFile=D:\Projects\XBCD\XBCD Installer\XBCD.ico
+OutputDir=C:\XBCD\XBCD Installer\
+OutputBaseFilename=XBCD_Installer_1.2.0
+SetupIconFile=C:\XBCD\XBCD Installer\XBCD.ico
 Compression=lzma2/Ultra64
 SolidCompression=true
 InternalCompressLevel=Ultra64
@@ -28,15 +28,15 @@ VersionInfoCopyright=XBCD Project
 VersionInfoVersion=1.2.0
 DefaultGroupName=XBCD
 UninstallDisplayName=XBCD Uninstaller
-AppPublisherURL=http://vba-m.com/
-AppSupportURL=http://vba-m.com/forum/Forum-xbcd
-AppUpdatesURL=http://vba-m.com/forum/Thread-xbcd-0-2-7-release-info-updates-will-be-posted-here
+AppPublisherURL=https://github.com/thundercatsNZ/xbcd
+AppSupportURL=https://github.com/thundercatsNZ/xbcd/issues
+AppUpdatesURL=https://github.com/thundercatsNZ/xbcd/releases
 AppID={{04054166-0801-48A9-89E0-BC4B53FE7A81}
 UninstallFilesDir={app}
 UninstallDisplayIcon={app}\uninstaller.ico
 ArchitecturesInstallIn64BitMode=x64
-InfoBeforeFile=D:\Projects\XBCD\XBCD Installer\before.txt
-InfoAfterFile=D:\Projects\XBCD\XBCD Installer\after.txt
+InfoBeforeFile=C:\XBCD\XBCD Installer\before.txt
+InfoAfterFile=C:\XBCD\XBCD Installer\after.txt
 MinVersion=5.1.2600
 CompressionThreads=8
 
@@ -131,17 +131,6 @@ Source: Driver\infcopy.dll; DestDir: {app}\Driver; Components: compact; Flags: u
 Source: Driver\revdevdll.dll; DestDir: {app}\Driver; Components: compact; Flags: uninsrestartdelete; MinVersion: 5.1.2600;
 Source: Profiles\XBCDSU\profiles.dat; DestDir: {commonappdata}\XBCDSU; Components: compact; Flags: uninsrestartdelete confirmoverwrite
 Source: uninstaller.ico; DestDir: {app}; Flags: uninsrestartdelete
-Source: x360ce\x360ce.exe; DestDir: {app}\x360ce\; Flags: uninsrestartdelete; Components: compact
-Source: x360ce\x360ce.ini; DestDir: {app}\x360ce\; Flags: uninsrestartdelete; Components: compact; 
-Source: x360ce\xinput1_1.dll; DestDir: {app}\x360ce\; Flags: uninsrestartdelete; Components: compact
-Source: x360ce\xinput1_2.dll; DestDir: {app}\x360ce\; Flags: uninsrestartdelete; Components: compact
-Source: x360ce\xinput1_3.dll; DestDir: {app}\x360ce\; Flags: uninsrestartdelete; Components: compact
-Source: x360ce\xinput9_1_0.dll; DestDir: {app}\x360ce\; Flags: uninsrestartdelete; Components: compact
-Source: x360ce\x64\x360ce.ini; DestDir: {app}\x360ce\x64\; Flags: uninsrestartdelete; Components: Compact; 
-Source: x360ce\x64\xinput1_1.dll; DestDir: {app}\x360ce\x64\; Flags: uninsrestartdelete; Components: Compact; 
-Source: x360ce\x64\xinput1_2.dll; DestDir: {app}\x360ce\x64\; Flags: uninsrestartdelete; Components: Compact; 
-Source: x360ce\x64\xinput1_3.dll; DestDir: {app}\x360ce\x64\; Flags: uninsrestartdelete; Components: Compact; 
-Source: x360ce\x64\xinput9_1_0.dll; DestDir: {app}\x360ce\x64\; Flags: uninsrestartdelete; Components: Compact; 
 Source: xbcd.ico; DestDir: {app}; Components: compact; Flags: uninsrestartdelete
 
 [Components]
@@ -7382,7 +7371,6 @@ Name: "{group}\Reinstall Driver"; Filename: {app}\Driver\dpinst.exe; IconFilenam
 Name: {group}\XBCD Setup Utility; Filename: {sys}\rundll32.exe; IconFilename: {app}\XBCD.ico; Languages: ; IconIndex: 0; Parameters: xbcdsu.dll,AppMain; WorkingDir: {sys}; Comment: This will allow configuration of controllers using the XBCD driver; Components: Compact
 Name: {group}\XBCD Source Code; Filename: {app}\Source Code\; Components: Full; Languages: 
 Name: {group}\XBCD Uninstaller; Filename: {app}\unins000.exe; IconFilename: {app}\uninstaller.ico; IconIndex: 0; Comment: This will uninstall XBCD
-Name: {group}\Xbox 360 emulator; Filename: {app}\x360ce\; Languages: ; Components: Compact
 [Dirs]
 Name: {app}\Source Code; Components: full
 Name: {app}\Source Code\istool script; Components: full
@@ -7394,9 +7382,7 @@ Name: {app}\Source Code\XBCD Rumble; Components: full
 Name: {app}\Source Code\XBCD Rumble\DevCpp; Components: full
 Name: {app}\Source Code\XBCD Rumble\MSVC6; Components: full
 Name: {app}\Source Code\XBCD Rumble\MSVC8; Components: full
-Name: {app}\x360ce; Components: compact
 Name: {commonappdata}\XBCDSU; Components: compact
-Name: {app}\x360ce\x64; Components: compact
 
 [Run]
 Components: Compact; Filename: {app}\Driver\dpinst.exe; Flags: HideWizard; Parameters: "/lm /p"; 
