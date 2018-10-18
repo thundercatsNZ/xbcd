@@ -35,8 +35,8 @@ AppID={{04054166-0801-48A9-89E0-BC4B53FE7A81}
 UninstallFilesDir={app}
 UninstallDisplayIcon={app}\uninstaller.ico
 ArchitecturesInstallIn64BitMode=x64
-InfoBeforeFile=C:\XBCD\XBCD Installer\before.txt
-InfoAfterFile=C:\XBCD\XBCD Installer\after.txt
+InfoBeforeFile=before.txt
+InfoAfterFile=after.txt
 MinVersion=5.1.2600
 CompressionThreads=8
 
@@ -55,44 +55,44 @@ Source: ..\Source Code\Registry Data\reginfo.txt; DestDir: {app}\Source Code\Reg
 Source: ..\Source Code\Registry Data\setup utility.reg; DestDir: {app}\Source Code\Registry Data\; Components: full
 Source: ..\Source Code\Registry Data\wow64 rumble.reg; DestDir: {app}\Source Code\Registry Data\; Components: full
 Source: ..\Source Code\Registry Data\xbcd+reinst full.reg; DestDir: {app}\Source Code\Registry Data\; Components: full
-Source: ..\Source Code\Setup Utility 2.21\CAssign.dfm; DestDir: {app}\Source Code\Setup Utility 2.21; Components: full
-Source: ..\Source Code\Setup Utility 2.21\CAssign.pas; DestDir: {app}\Source Code\Setup Utility 2.21; Components: full
-Source: ..\Source Code\Setup Utility 2.21\Controls.pas; DestDir: {app}\Source Code\Setup Utility 2.21; Components: full
-Source: ..\Source Code\Setup Utility 2.21\Forms.pas; DestDir: {app}\Source Code\Setup Utility 2.21; Components: full
-Source: ..\Source Code\Setup Utility 2.21\HID.pas; DestDir: {app}\Source Code\Setup Utility 2.21; Components: full
-Source: ..\Source Code\Setup Utility 2.21\Main.dfm; DestDir: {app}\Source Code\Setup Utility 2.21; Components: full
-Source: ..\Source Code\Setup Utility 2.21\Main.pas; DestDir: {app}\Source Code\Setup Utility 2.21; Components: full
-Source: ..\Source Code\Setup Utility 2.21\MixedColor.pas; DestDir: {app}\Source Code\Setup Utility 2.21; Components: full
-Source: ..\Source Code\Setup Utility 2.21\SetupApi.pas; DestDir: {app}\Source Code\Setup Utility 2.21; Components: full
-Source: ..\Source Code\Setup Utility 2.21\WindowsXP.res; DestDir: {app}\Source Code\Setup Utility 2.21; Components: full
-Source: ..\Source Code\Setup Utility 2.21\XBCDIF.pas; DestDir: {app}\Source Code\Setup Utility 2.21; Components: full
-Source: ..\Source Code\Setup Utility 2.21\XBCDSU.dpr; DestDir: {app}\Source Code\Setup Utility 2.21; Components: full
-Source: ..\Source Code\Setup Utility 2.21\XBCDSU.res; DestDir: {app}\Source Code\Setup Utility 2.21; Components: full
-Source: ..\Source Code\XBCD 1.2.0\Changelog.txt; DestDir: {app}\Source Code\XBCD 1.2.0; Components: full
-Source: ..\Source Code\XBCD 1.2.0\makefile; DestDir: {app}\Source Code\XBCD 1.2.0; Components: full
-Source: ..\Source Code\XBCD 1.2.0\Readme.txt; DestDir: {app}\Source Code\XBCD 1.2.0; Components: full
-Source: ..\Source Code\XBCD 1.2.0\RemoveLock.c; DestDir: {app}\Source Code\XBCD 1.2.0; Components: full
-Source: ..\Source Code\XBCD 1.2.0\resource.h; DestDir: {app}\Source Code\XBCD 1.2.0; Components: full
-Source: ..\Source Code\XBCD 1.2.0\SemiAxis.h; DestDir: {app}\Source Code\XBCD 1.2.0; Components: full
-Source: ..\Source Code\XBCD 1.2.0\sources; DestDir: {app}\Source Code\XBCD 1.2.0; Components: full
-Source: ..\Source Code\XBCD 1.2.0\src_readme.txt; DestDir: {app}\Source Code\XBCD 1.2.0; Components: full
-Source: ..\Source Code\XBCD 1.2.0\tags; DestDir: {app}\Source Code\XBCD 1.2.0; Components: full
-Source: ..\Source Code\XBCD 1.2.0\XBCD.inf; DestDir: {app}\Source Code\XBCD 1.2.0; Components: full
-Source: ..\Source Code\XBCD 1.2.0\XBCD.rc; DestDir: {app}\Source Code\XBCD 1.2.0; Components: full
-Source: ..\Source Code\XBCD 1.2.0\XBCD_control.c; DestDir: {app}\Source Code\XBCD 1.2.0; Components: full
-Source: ..\Source Code\XBCD 1.2.0\XBCD_driver.c; DestDir: {app}\Source Code\XBCD 1.2.0; Components: full
-Source: ..\Source Code\XBCD 1.2.0\XBCD_driver.h; DestDir: {app}\Source Code\XBCD 1.2.0; Components: full
-Source: ..\Source Code\XBCD 1.2.0\XBCD_hid.h; DestDir: {app}\Source Code\XBCD 1.2.0; Components: full
-Source: ..\Source Code\XBCD 1.2.0\XBCD_Old.inf; DestDir: {app}\Source Code\XBCD 1.2.0; Components: full
-Source: ..\Source Code\XBCD 1.2.0\XBCD_report.c; DestDir: {app}\Source Code\XBCD 1.2.0; Components: full
-Source: ..\Source Code\XBCD 1.2.0\XBCD_usb.c; DestDir: {app}\Source Code\XBCD 1.2.0; Components: full
-Source: ..\Source Code\XBCD INTERFACE\HID.pas; DestDir: {app}\Source Code\XBCD INTERFACE; Components: full
-Source: ..\Source Code\XBCD INTERFACE\Main.pas; DestDir: {app}\Source Code\XBCD INTERFACE; Components: full
-Source: ..\Source Code\XBCD INTERFACE\Readme.txt; DestDir: {app}\Source Code\XBCD INTERFACE; Components: full
-Source: ..\Source Code\XBCD INTERFACE\SetupApi.pas; DestDir: {app}\Source Code\XBCD INTERFACE; Components: full
-Source: ..\Source Code\XBCD INTERFACE\XBCDIF.dpr; DestDir: {app}\Source Code\XBCD INTERFACE; Components: full
-Source: ..\Source Code\XBCD INTERFACE\XBCDIF.pas; DestDir: {app}\Source Code\XBCD INTERFACE; Components: full
-Source: ..\Source Code\XBCD INTERFACE\XBCDIF.res; DestDir: {app}\Source Code\XBCD INTERFACE; Components: full
+Source: ..\Source Code\Setup Utility\CAssign.dfm; DestDir: {app}\Source Code\Setup Utility; Components: full
+Source: ..\Source Code\Setup Utility\CAssign.pas; DestDir: {app}\Source Code\Setup Utility; Components: full
+Source: ..\Source Code\Setup Utility\Controls.pas; DestDir: {app}\Source Code\Setup Utility; Components: full
+Source: ..\Source Code\Setup Utility\Forms.pas; DestDir: {app}\Source Code\Setup Utility; Components: full
+Source: ..\Source Code\Setup Utility\HID.pas; DestDir: {app}\Source Code\Setup Utility; Components: full
+Source: ..\Source Code\Setup Utility\Main.dfm; DestDir: {app}\Source Code\Setup Utility; Components: full
+Source: ..\Source Code\Setup Utility\Main.pas; DestDir: {app}\Source Code\Setup Utility; Components: full
+Source: ..\Source Code\Setup Utility\MixedColor.pas; DestDir: {app}\Source Code\Setup Utility; Components: full
+Source: ..\Source Code\Setup Utility\SetupApi.pas; DestDir: {app}\Source Code\Setup Utility; Components: full
+Source: ..\Source Code\Setup Utility\WindowsXP.res; DestDir: {app}\Source Code\Setup Utility; Components: full
+Source: ..\Source Code\Setup Utility\XBCDIF.pas; DestDir: {app}\Source Code\Setup Utility; Components: full
+Source: ..\Source Code\Setup Utility\XBCDSU.dpr; DestDir: {app}\Source Code\Setup Utility; Components: full
+Source: ..\Source Code\Setup Utility\XBCDSU.res; DestDir: {app}\Source Code\Setup Utility; Components: full
+Source: ..\Source Code\XBCD Driver\Changelog.txt; DestDir: {app}\Source Code\XBCD Driver; Components: full
+Source: ..\Source Code\XBCD Driver\makefile; DestDir: {app}\Source Code\XBCD Driver; Components: full
+Source: ..\Source Code\XBCD Driver\Readme.txt; DestDir: {app}\Source Code\XBCD Driver; Components: full
+Source: ..\Source Code\XBCD Driver\RemoveLock.c; DestDir: {app}\Source Code\XBCD Driver; Components: full
+Source: ..\Source Code\XBCD Driver\resource.h; DestDir: {app}\Source Code\XBCD Driver; Components: full
+Source: ..\Source Code\XBCD Driver\SemiAxis.h; DestDir: {app}\Source Code\XBCD Driver; Components: full
+Source: ..\Source Code\XBCD Driver\sources; DestDir: {app}\Source Code\XBCD Driver; Components: full
+Source: ..\Source Code\XBCD Driver\src_readme.txt; DestDir: {app}\Source Code\XBCD Driver; Components: full
+Source: ..\Source Code\XBCD Driver\tags; DestDir: {app}\Source Code\XBCD Driver; Components: full
+Source: ..\Source Code\XBCD Driver\XBCD.inf; DestDir: {app}\Source Code\XBCD Driver; Components: full
+Source: ..\Source Code\XBCD Driver\XBCD.rc; DestDir: {app}\Source Code\XBCD Driver; Components: full
+Source: ..\Source Code\XBCD Driver\XBCD_control.c; DestDir: {app}\Source Code\XBCD Driver; Components: full
+Source: ..\Source Code\XBCD Driver\XBCD_driver.c; DestDir: {app}\Source Code\XBCD Driver; Components: full
+Source: ..\Source Code\XBCD Driver\XBCD_driver.h; DestDir: {app}\Source Code\XBCD Driver; Components: full
+Source: ..\Source Code\XBCD Driver\XBCD_hid.h; DestDir: {app}\Source Code\XBCD Driver; Components: full
+Source: ..\Source Code\XBCD Driver\XBCD_Old.inf; DestDir: {app}\Source Code\XBCD Driver; Components: full
+Source: ..\Source Code\XBCD Driver\XBCD_report.c; DestDir: {app}\Source Code\XBCD Driver; Components: full
+Source: ..\Source Code\XBCD Driver\XBCD_usb.c; DestDir: {app}\Source Code\XBCD Driver; Components: full
+Source: ..\Source Code\XBCD Interface\HID.pas; DestDir: {app}\Source Code\XBCD Interface; Components: full
+Source: ..\Source Code\XBCD Interface\Main.pas; DestDir: {app}\Source Code\XBCD Interface; Components: full
+Source: ..\Source Code\XBCD Interface\Readme.txt; DestDir: {app}\Source Code\XBCD Interface; Components: full
+Source: ..\Source Code\XBCD Interface\SetupApi.pas; DestDir: {app}\Source Code\XBCD Interface; Components: full
+Source: ..\Source Code\XBCD Interface\XBCDIF.dpr; DestDir: {app}\Source Code\XBCD Interface; Components: full
+Source: ..\Source Code\XBCD Interface\XBCDIF.pas; DestDir: {app}\Source Code\XBCD Interface; Components: full
+Source: ..\Source Code\XBCD Interface\XBCDIF.res; DestDir: {app}\Source Code\XBCD Interface; Components: full
 Source: ..\Source Code\XBCD Rumble\clsfact.cpp; DestDir: {app}\Source Code\XBCD Rumble; Components: full
 Source: ..\Source Code\XBCD Rumble\DevCpp\XBCDR.def; DestDir: {app}\Source Code\XBCD Rumble\DevCpp; Components: full
 Source: ..\Source Code\XBCD Rumble\DevCpp\XBCDR.dev; DestDir: {app}\Source Code\XBCD Rumble\DevCpp; Components: full
@@ -7539,9 +7539,9 @@ Name: {group}\XBCD Uninstaller; Filename: {app}\unins000.exe; IconFilename: {app
 Name: {app}\Source Code; Components: full
 Name: {app}\Source Code\istool script; Components: full
 Name: {app}\Source Code\Registry Data; Components: full
-Name: {app}\Source Code\Setup Utility 2.21; Components: full
-Name: {app}\Source Code\XBCD 1.2.0; Components: full
-Name: {app}\Source Code\XBCD INTERFACE; Components: full
+Name: {app}\Source Code\Setup Utility; Components: full
+Name: {app}\Source Code\XBCD Driver; Components: full
+Name: {app}\Source Code\XBCD Interface; Components: full
 Name: {app}\Source Code\XBCD Rumble; Components: full
 Name: {app}\Source Code\XBCD Rumble\DevCpp; Components: full
 Name: {app}\Source Code\XBCD Rumble\MSVC6; Components: full
